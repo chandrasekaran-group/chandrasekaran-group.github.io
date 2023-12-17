@@ -29,8 +29,8 @@ interests:
   - Systems, Networking, Distributed Computing
 
 
-education:
-  courses:
+# education:
+#   courses:
     # - course: PhD in Artificial Intelligence
     #   institution: Stanford University
     #   year: 2012
@@ -48,16 +48,16 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:test@example.org'
+    link: 'mailto:varunc@illinois.edu'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/varunchandrase3
   - icon: google-scholar
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://scholar.google.com/citations?user=Sl7nSOsAAAAJ&hl=en
+  # - icon: github
+  #   icon_pack: fab
+  #   link: https://github.com/gcushen
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # - icon: cv
@@ -73,7 +73,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Principal Investigators
 ---
 
 I graduated from the Department of Computer Sciences at the University of Wisconsin-Madison, where I was fortunate to work with Suman Banerjee and Somesh Jha.
