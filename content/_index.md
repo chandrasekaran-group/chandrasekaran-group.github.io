@@ -11,7 +11,7 @@ sections:
         Chandrasekaran
         Research Group
       image:
-        filename: welcome.jpg
+        filename: welcome.jpeg
       text: |
         <br>
         
