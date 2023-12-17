@@ -15,7 +15,11 @@ sections:
       text: |
         <br>
         
-        The **Chandrasekaran Research Group** has been a center of excellence for xxx research.
+        I graduated from the Department of Computer Sciences at the [University of Wisconsin-Madison](https://www.cs.wisc.edu/), where I was fortunate to work with [Suman Banerjee](http://pages.cs.wisc.edu/~suman/) and [Somesh Jha](http://pages.cs.wisc.edu/~jha/).
+        <br>
+        My research interests lie at the intersection of Security & Privacy and various domains such as Systems, Networking, Distributed Computing, and Machine Learning. In particular, my research aims to understand what private information can be inferred through interaction with a machine learning model.
+        <br>
+        Previously, I obtained my MS degree from the [Courant Institute of Mathematical Sciences](https://www.cs.nyu.edu/). I've obtained my B.Eng in Computer Science and Engineering from the [College of Engineering, Guindy](https://www.annauniv.edu/).
   
   - block: collection
     content:
