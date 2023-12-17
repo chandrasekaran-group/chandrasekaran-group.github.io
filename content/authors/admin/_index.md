@@ -14,28 +14,32 @@ role: Assistant Professor
 
 # Organizations/Affiliations
 organizations:
-  - name: Stanford University
+  - name: 
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: # My research interests include distributed robotics, mobile computing and programmable matter.
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  # - Artificial Intelligence
+  # - Computational Linguistics
+  # - Information Retrieval
+  - Security & Privacy
+  - Machine Learning
+  - Systems, Networking, Distributed Computing
+
 
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    # - course: PhD in Artificial Intelligence
+    #   institution: Stanford University
+    #   year: 2012
+    # - course: MEng in Artificial Intelligence
+    #   institution: Massachusetts Institute of Technology
+    #   year: 2009
+    # - course: BSc in Artificial Intelligence
+    #   institution: Massachusetts Institute of Technology
+    #   year: 2008
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
