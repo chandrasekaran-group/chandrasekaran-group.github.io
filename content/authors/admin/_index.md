@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 
+title: Varun Chandrasekaran
 
 # Full Name (for SEO)
 first_name: Varun
