@@ -10,7 +10,7 @@ last_name: Chandrasekaran
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Assistant Professor
 
 # Organizations/Affiliations
 organizations:
@@ -72,6 +72,8 @@ user_groups:
   - Researchers
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I graduated from the Department of Computer Sciences at the University of Wisconsin-Madison, where I was fortunate to work with Suman Banerjee and Somesh Jha.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+My research interests lie at the intersection of Security & Privacy and various domains such as Systems, Networking, Distributed Computing, and Machine Learning. In particular, my research aims to understand what private information can be inferred through interaction with a machine learning model.
+
+Previously, I obtained my MS degree from the Courant Institute of Mathematical Sciences. I've obtained my B.Eng in Computer Science and Engineering from the College of Engineering, Guindy.
