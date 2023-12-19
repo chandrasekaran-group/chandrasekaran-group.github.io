@@ -15,7 +15,7 @@ sections:
       text: |
 
         <br>
-        I am now an assistant professor at the Department of Electrical & Computer Engineering at the [University of Illinois at Urbana-Champaign](https://ece.illinois.edu/).
+        I am now an assistant professor at the Department of Electrical & Computer Engineering at the <a href=https://ece.illinois.edu/ target=_blank rel=noopener>University of Illinois at Urbana-Champaign</a>.
 
         I graduated from the Department of Computer Sciences at the [University of Wisconsin-Madison](https://www.cs.wisc.edu/), where I was fortunate to work with [Suman Banerjee](http://pages.cs.wisc.edu/~suman/) and [Somesh Jha](http://pages.cs.wisc.edu/~jha/).
         <br>
