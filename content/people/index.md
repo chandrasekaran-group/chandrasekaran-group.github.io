@@ -1,4 +1,4 @@
----
+``---
 title: People
 date: 2022-10-24
 
@@ -23,4 +23,4 @@ sections:
       show_interests: false
       show_role: true
       show_social: true
----
+---``
