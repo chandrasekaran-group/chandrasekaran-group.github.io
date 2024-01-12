@@ -14,7 +14,7 @@ date: 2024-01-12
 - TBD: final presentation (focusing on your results and findings)
 - TBD: final report due (the full paper)
 
-*All deadlines are 11:59 PM (CT) of the specific date. Please submit via email (TO: gang@illinois.edu; CC: hjaderb2@illinois.edu). Email subject "[CS562 Project]..". One submission per team; list team members' names and netIDs in the email body.*
+*All deadlines are 11:59 PM (CT) of the specific date. Please submit via email (TO: varunc@illinois.edu; CC: qilong3@illinois.edu). Email subject "[CS562 Project]..". One submission per team; list team members' names and netIDs in the email body.*
 
 In this class, you will form a team of 2-4 students to work on a single research project throughout the semester. The project should aim to solve a real problem in the intersection area of machine learning and security/privacy/system/networking. For this project, your goal should be producing publishable research results at a high-quality venue. You are welcome to incorporate this project with any other research you are working on as long as the topic is related. I encourage you to think about new solutions that ML can facilitate to problems in your own field. For a given team, all the team members will receive the same score for the project related tasks. Please talk about your idea with me (briefly after class or during office hours) before starting the project.
 
