@@ -10,8 +10,8 @@ main:
   - name: People
     url: people
     weight: 30
-  - name: Courses
-    url: courses/cs562
+  - name: Class
+    url: class/cs562
     weight: 40
   - name: Publications
     url: publication
