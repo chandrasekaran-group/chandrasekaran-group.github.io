@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: CS 562
 date: 2022-10-24
 
 type: landing
