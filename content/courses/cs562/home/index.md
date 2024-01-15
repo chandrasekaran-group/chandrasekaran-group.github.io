@@ -58,8 +58,6 @@ All deadlines are 11:59 PM (CT) of the specific date (not including paper review
 
 # Class Schedule
 
-| Week / Date | Papers | Deadline |
-|-------------|--------|----------|
 
 | Date   | Area                               | Week | Link                                                                                                                                                                                          | Notes                                        |
 |--------|------------------------------------|------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------|
@@ -72,8 +70,7 @@ All deadlines are 11:59 PM (CT) of the specific date (not including paper review
 |        |                                    |      | - [Poisoning Web-scale Datasets is Practical](https://arxiv.org/abs/2302.10149)                                                                                                               |                                              |
 | Feb 7  | Applications: Humans               | 4    | - [Adversarial Examples that Fool both Computer Vision and Time-Limited Humans](https://arxiv.org/abs/1802.08195)                                                                             |                                              |
 |        |                                    |      | - [Face-Off: Adversarial Face Obfuscation](https://arxiv.org/abs/2003.08861)                                                                                                                  |                                              |
-|        |                                    |      | - [Fawkes: Protecting Privacy against Unauthorized Deep Learning Models](https://arxiv.org/abs/2002.08327)                                                                                    |                                              |
-                          |                                              |
+|        |                                    |      | - [Fawkes: Protecting Privacy against Unauthorized Deep Learning Models](https://arxiv.org/abs/2002.08327)|                                              |
 |  Feb 14 | Foundation Models |   5   | - [Asleep at the Keyboard? Assessing the Security of GitHub Copilot’s Code Contributions](https://arxiv.org/abs/2108.09293) | Project Proposal: Share <5 slides with prescribed format |
 |        |                                    |      | - [Data Determines Distributional Robustness in Contrastive Language Image Pre-training (CLIP)](https://arxiv.org/abs/2205.01397)                                                             |                                              |
 |        |                                    |      | - [A Watermark for Large Language Models](https://arxiv.org/abs/2301.10226)                                                                                                                   |                                              |
