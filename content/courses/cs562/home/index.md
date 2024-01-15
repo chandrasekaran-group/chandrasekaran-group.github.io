@@ -5,7 +5,7 @@ date: 2024-01-12
 
 **Session-VC: Machine Learning for Sys, Networks, and Security**
 
-[Home]() | [Campuswire](#campuswire) | [Paper Signup Sheet](#papersignup) | [Project](https://chandrasekaran-group.github.io/courses/cs562/project/)
+[Home]() | [Campuswire](#campuswire) | [Paper Signup Sheet](https://docs.google.com/spreadsheets/d/1xIN1uJM0XWqbOk2ETxevJ6nnLqtCmPmeDBvXwHq8zic/edit?usp=sharing) | [Project](https://chandrasekaran-group.github.io/courses/cs562/project/)
 
 ---
 
