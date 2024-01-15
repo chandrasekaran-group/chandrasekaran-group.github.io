@@ -46,7 +46,7 @@ extend machine learning techniques to new problems and produce publishable resul
   during the class and over the online discussion board.
 - **Participation**: students are required to attend all the lectures. Please inform the instructor via email if you
   cannot make it to the class due to travel or sickness.
-- **Team Project**: 3-4 students will form a team to work on a single research project throughout the semester. The
+- **Team Project**: 2-3 students will form a team to work on a single research project throughout the semester. The
   project should aim to solve a real problem in the intersection area of machine learning and security/system. Each team
   will write a project proposal, perform literature surveys, give a short talk in the midterm, and give a final
   presentation at the end of the semester. Each team is also expected to write up a final project report.
