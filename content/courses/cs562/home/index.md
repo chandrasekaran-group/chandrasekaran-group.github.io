@@ -108,11 +108,12 @@ All deadlines are 11:59 PM (CT) of the specific date (not including paper review
 # Grading
 
 - Class attendance and participation: `5%`
+- In class quiz: `5%`
 - Paper reviews: `25%`
 - Paper presentation in class: `15%`
 - Project: proposal: `10%`
 - Project: midterm presentation: `10%`
-- Project: final presentation: `15%`
+- Project: final presentation: `10%`
 - Project: midterm report + progress update slides: `10%`
 - Project: final report: `10%`
 
