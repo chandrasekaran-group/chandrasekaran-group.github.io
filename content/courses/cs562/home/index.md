@@ -73,7 +73,7 @@ All deadlines are 11:59 PM (CT) of the specific date (not including paper review
 |            |                                   |      | - [Beyond Credential Stuffing: Password Similarity Models using Neural Networks](https://ieeexplore.ieee.org/document/8835247) |                                          |
 |            |                                   |      | - [Passgan: A deep learning approach for password guessing](https://par.nsf.gov/servlets/purl/10189835#:~:text=Instead%20of%20relying%20on%20manual,this%20approach%20is%20very%20promising.) |                                          |
 | Mar 13     | Spring Break                      | 9    | Break; no class                                  |                                          |
-| Mar 20     | Mid-Term Presentation              | 10   | Mid-term check-in: share project report       |                                          |
+| Mar 20     | Mid-Term Presentation              | 10   | | Mid-term check-in: share project report       |                                          
 | Mar 27     | Explanations                      | 11   | - ["Why Should I Trust You?" Explaining the Predictions of Any Classifier](https://arxiv.org/abs/1602.04938) |                                          |
 |            |                                   |      | - [Explanation-Guided Backdoor Poisoning Attacks Against Malware Classifiers](https://arxiv.org/abs/2003.01031) |                                          |
 |            |                                   |      | - [Interpretable Deep Learning under Fire](https://arxiv.org/abs/1812.00891) |                                          |
@@ -83,7 +83,7 @@ All deadlines are 11:59 PM (CT) of the specific date (not including paper review
 | Apr 10     | Deepfakes                         | 13   | - [Seeing is Living? Rethinking the Security of Facial Liveness Verification in the Deepfake Era](https://arxiv.org/abs/2202.10673) |                                          |
 |            |                                   |      | - [DepthFake: Spoofing 3D Face Authentication with a 2D Photo](https://www.computer.org/csdl/proceedings-article/sp/2023/933600b710/1OXH6P0fej6) |                                          |
 |            |                                   |      | - [Evading Deepfake-Image Detectors with White- and Black-Box Attacks](https://arxiv.org/abs/2004.00622) |                                          |
-| Apr 17     | Copyright in ML                   | 14   | Three-quarter check-in: share project report   |                                          |
+| Apr 17     | Copyright in ML                   | 14   | | Three-quarter check-in: share project report                                           |
 |            |                                   |      | - [Glaze: Protecting Artists from Style Mimicry by Text-to-Image Models](https
 
 ://arxiv.org/abs/2302.04222) |                                          |
