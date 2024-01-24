@@ -98,7 +98,7 @@ D+, [70-72] C-, [73-76] C, [77-79] C+, [80-82] B-, [83-86] B, [87-89] B+, [90-92
 # Paper Review
 
 We read 3 papers before each class meeting. Before each class, students are expected to read both papers and submit a
-short review via Campuswire. The deadline for the review is 3:00 PM (CT) on the day of class.
+short review via Campuswire. The deadline for the review is 11:59 PM (CT) on Tuesday before class.
 
 The review should contain sufficient content (about 200-500 words; it can be longer if needed). The review can focus on
 the key contributions of the paper, the strengths and weaknesses, or potential issues with the experiment methodologies
