@@ -38,8 +38,6 @@ The course focuses on various aspects of data-centric security and privacy. Topi
 - **Participation**: Students are expected to attend all the lectures, participate in discussions, and attend (some) office hours (online/ offline). Please inform the instructor via email if you
   cannot make it to the class due to travel or sickness.
 
-- **Quizzes**: Students are expected to complete a short quiz after each lecture. The quiz contains 3-5 single-choice or multi-choice questions. The quiz is closely related to the respective lecture and is designed to be light-weighted (and hopefully fun). Quizzes will be graded (for instructor's reference), but students will receive the full points by simply trying them
-
 - **Machine Problem (MP)**: Students are expected to work on 4-5 MPs throughout the semester (individual efforts). The projects will involve hands-on programming and data analysis, covering various topics that complement the lecture topics. Example topics include tracking user location based on social network data, interacting with Bitcoin APIs, multi-party computation without directly exchanging data. All deadlines are 11:59 PM (CT) of the specific date.
 
 ---
