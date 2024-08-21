@@ -16,11 +16,14 @@ instructor (varunc@illinois.edu) for the invitation code.
 
 | **Instructor**        | [Varun Chandrasekaran](https://chandrasekaran-group.github.io/) (varunc@illinois.edu)      |
 |-----------------------|-------------------------------------------------------------------------------------------|
-| **TA**                | [Daniel Hsu](mailto:chhsu5@illinois.edu) (chhsu5@illinois.edu)                             |
+| **TAs**                | [Daniel Hsu](mailto:chhsu5@illinois.edu) (chhsu5@illinois.edu)                             |
 |                       | [Sujithra Rajan](mailto:rajan11@illinois.edu) (rajan11@illinois.edu)                       |
-| **Time/Location**     | **BG/ BU Section**: Tuesday & Thursday (11:30 am - 12:00 PM). Electrical & Computer Eng Bldg -  Room 2013 |
+| **Time/Location**     | **BG/ BU Section**: Tuesday & Thursday (11:30 AM - 12:50 PM). Electrical & Computer Eng Bldg -  Room 2013 |
 |                       | **DSO Section**: online and asynchronous via [Coursera](https://www.coursera.org/)         |
+| **Campuswire**          | [Link to Campuswire](https://campuswire.com/c/G1CB36E2B/feed) |
 | **Schedule**          | [Link to Schedule](https://docs.google.com/spreadsheets/d/1vZjNOavlNVm4SYVojeyjdG95d6RR3UM05vfyLDijM1g/edit?gid=0#gid=0) |
+| **Syllabus**          | [Link to Syllabus](https://www.dropbox.com/scl/fi/bdipz4hmcdiuplsn3zg6s/syllabus_424.pdf?rlkey=j9i8l1ffgtx60b2e0hpch8pt1&dl=0) |
+| **Office Hours**          | [Link to Office Hours Schedule](https://docs.google.com/document/d/1qPs9BzPCRoYvpPa_z3UP5YmAngo9N2YxW6oRSm7xl74/edit?usp=sharing) |
 
 
 # Class Description
@@ -38,7 +41,7 @@ The course focuses on various aspects of data-centric security and privacy. Topi
 - **Participation**: Students are expected to attend all the lectures, participate in discussions, and attend (some) office hours (online/ offline). Please inform the instructor via email if you
   cannot make it to the class due to travel or sickness.
 
-- **Machine Problem (MP)**: Students are expected to work on 4-5 MPs throughout the semester (individual efforts). The projects will involve hands-on programming and data analysis, covering various topics that complement the lecture topics. Example topics include tracking user location based on social network data, interacting with Bitcoin APIs, multi-party computation without directly exchanging data. All deadlines are 11:59 PM (CT) of the specific date.
+- **Machine Problems (MP)**: Students are expected to work on 5 MPs throughout the semester (**individual effort only**). The problems will involve hands-on programming and data analysis, covering various topics that complement the lecture topics. Example topics include tracking user location based on social network data, interacting with Bitcoin APIs, multi-party computation without directly exchanging data. All deadlines are 11:59 PM (CT) of the specific date.
 
 ---
 # Policies
