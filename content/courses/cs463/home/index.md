@@ -1,5 +1,5 @@
 ---
-title: "CS 463: Computer Security II"
+title: "ECE 424/ CS 463: Computer Security II"
 date: 2024-08-12
 ---
 
