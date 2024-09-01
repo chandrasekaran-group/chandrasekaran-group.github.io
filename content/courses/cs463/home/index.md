@@ -5,6 +5,18 @@ date: 2024-08-12
 
 **ECE 424/ CS 463: Computer Security II**
 
+[Home](https://chandrasekaran-group.github.io/courses/cs463/home/) | [Schedule](https://docs.google.com/spreadsheets/d/1vZjNOavlNVm4SYVojeyjdG95d6RR3UM05vfyLDijM1g/edit?gid=0#gid=0) | [Campuswire](https://campuswire.com/c/G1CB36E2B/feed) | [Office Hours](https://docs.google.com/document/d/1qPs9BzPCRoYvpPa_z3UP5YmAngo9N2YxW6oRSm7xl74/edit?usp=sharing)
+
+---
+
+| **Instructor**        | [Varun Chandrasekaran](https://chandrasekaran-group.github.io/) (varunc@illinois.edu)      |
+|-----------------------|-------------------------------------------------------------------------------------------|
+| **TAs**                | [Daniel Hsu](mailto:chhsu5@illinois.edu) (chhsu5@illinois.edu)                             |
+|                       | [Sujithra Rajan](mailto:rajan11@illinois.edu) (rajan11@illinois.edu)                       |
+| **Time/Location**     | **BG/ BU Section**: Tuesday & Thursday (11:30 AM - 12:50 PM). Electrical & Computer Eng Bldg -  Room 2013 |
+|                       | **DSO Section**: online and asynchronous via [Coursera](https://www.coursera.org/)         |
+| **Syllabus**          | [Link to Syllabus](https://www.dropbox.com/scl/fi/bdipz4hmcdiuplsn3zg6s/syllabus_424.pdf?rlkey=j9i8l1ffgtx60b2e0hpch8pt1&dl=0) |
+
 ---
 > ### Announcement
 >
@@ -14,19 +26,7 @@ instructor (varunc@illinois.edu) for the invitation code.
 > MPs will be released (and submitted) via Github. If you have not done so, please create a Github account. For students who have already enrolled, We will provide detailed tutorials and instructions on how to sign up with class repo and check out MPs. We use Campuswire for Q&A and discussions. You will be added to campuswire by the course staff.
 ---
 
-| **Instructor**        | [Varun Chandrasekaran](https://chandrasekaran-group.github.io/) (varunc@illinois.edu)      |
-|-----------------------|-------------------------------------------------------------------------------------------|
-| **TAs**                | [Daniel Hsu](mailto:chhsu5@illinois.edu) (chhsu5@illinois.edu)                             |
-|                       | [Sujithra Rajan](mailto:rajan11@illinois.edu) (rajan11@illinois.edu)                       |
-| **Time/Location**     | **BG/ BU Section**: Tuesday & Thursday (11:30 AM - 12:50 PM). Electrical & Computer Eng Bldg -  Room 2013 |
-|                       | **DSO Section**: online and asynchronous via [Coursera](https://www.coursera.org/)         |
-| **Campuswire**          | [Link to Campuswire](https://campuswire.com/c/G1CB36E2B/feed) |
-| **Schedule**          | [Link to Schedule](https://docs.google.com/spreadsheets/d/1vZjNOavlNVm4SYVojeyjdG95d6RR3UM05vfyLDijM1g/edit?gid=0#gid=0) |
-| **Syllabus**          | [Link to Syllabus](https://www.dropbox.com/scl/fi/bdipz4hmcdiuplsn3zg6s/syllabus_424.pdf?rlkey=j9i8l1ffgtx60b2e0hpch8pt1&dl=0) |
-| **Office Hours**          | [Link to Office Hours Schedule](https://docs.google.com/document/d/1qPs9BzPCRoYvpPa_z3UP5YmAngo9N2YxW6oRSm7xl74/edit?usp=sharing) |
-
-
-# Class Description
+## Class Description
 
 The course focuses on various aspects of data-centric security and privacy. Topics include applied cryptography, trusted base, privacy, anonymity, non-interference, information flow, intrusion detection, machine learning and security, password security, policy composition and analysis, formal approaches to specification and verification of secure systems, and security and privacy of emerging systems. Course Information: 3 undergraduate hours. 3 or 4 graduate hours. Prerequisites: CS 225. Additional prerequisites or corequisites may be specified each term.
 
@@ -36,7 +36,7 @@ The course focuses on various aspects of data-centric security and privacy. Topi
 
 ---
 
-# Expected Work
+## Expected Work
 
 - **Participation**: Students are expected to attend all the lectures, participate in discussions, and attend (some) office hours (online/ offline). Please inform the instructor via email if you
   cannot make it to the class due to travel or sickness.
@@ -44,7 +44,15 @@ The course focuses on various aspects of data-centric security and privacy. Topi
 - **Machine Problems (MP)**: Students are expected to work on 5 MPs throughout the semester (**individual effort only**). The problems will involve hands-on programming and data analysis, covering various topics that complement the lecture topics. Example topics include tracking user location based on social network data, interacting with Bitcoin APIs, multi-party computation without directly exchanging data. All deadlines are 11:59 PM (CT) of the specific date.
 
 ---
-# Policies
+## Course Materials
+
+| `Week`      | `Study Material` |
+| ----------- | ----------- |
+| Week 1      | [Course Plan](/content/courses/cs463/home/463.0-Course-Plan.pdf)       |
+| |[Introduction](/content/courses/cs463/home/463.1-Introduction.pdf)
+
+---
+## Policies
 
 **Late Policy**: 
 Please see the individual assignment instruction
@@ -68,6 +76,6 @@ those who care about you.
 - **McKinley Health Center**: 217-333-2700, 1109 South Lincoln Avenue, Urbana, Illinois 61801
 
 
-# Statement on CS CARES and CS Values and Code of Conduct
+## Statement on CS CARES and CS Values and Code of Conduct
 
 > All members of the Illinois Computer Science department - faculty, staff, and students - are expected to adhere to the [CS Values and Code of Conduct](https://siebelschool.illinois.edu/about/values). The [CS CARES Committee](https://cs.illinois.edu/about/cs-cares/) is available to serve as a resource to help people who are concerned about or experience a potential violation of the Code. If you experience such issues, please [contact the CS CARES Committee](https://cs.illinois.edu/about/cs-cares/contact). The instructors of this course are also available for issues related to this class. 
