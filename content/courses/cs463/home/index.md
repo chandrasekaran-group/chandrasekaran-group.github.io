@@ -46,7 +46,7 @@ The course focuses on various aspects of data-centric security and privacy. Topi
 ---
 ## Course Materials
 
-| `Week`      | `Study Material` |
+| `WEEK`      | `STUDY MATERIAL` |
 | ----------- | ----------- |
 | Week 1      | [Course Plan](/content/courses/cs463/home/463.0-Course-Plan.pdf)       |
 | |[Introduction](/content/courses/cs463/home/463.1-Introduction.pdf)
