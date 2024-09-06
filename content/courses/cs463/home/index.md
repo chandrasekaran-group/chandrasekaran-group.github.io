@@ -50,6 +50,8 @@ The course focuses on various aspects of data-centric security and privacy. Topi
 | ----------- | ----------- |
 | Week 1      | [Course Plan](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.0-Course-Plan.pdf)       |
 | |[Introduction](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.1-Introduction.pdf)
+| Week 2      | [Social Networks](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.2-Social-Net.pdf)       |
+| |[De-Identification](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.3-De-Identification.pdf)
 
 ---
 ## Policies
