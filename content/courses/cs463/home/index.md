@@ -59,8 +59,7 @@ The course focuses on various aspects of data-centric security and privacy. Topi
 **Late Policy**: 
 Please see the individual assignment instruction
 
-**Academic Integrity**:
-Students must follow the university's guidelines on academic conduct ([quick link](https://provost.illinois.edu/policies/policies/academic-integrity/students-quick-reference-guide-to-academic-integrity/)). This course will have a zero-tolerance policy regarding plagiarism. You should complete all the assignments and quizzes on your own. In this course, you can help your classmates with questions such as how to use the programming language, what the library classes or methods do, what the errors mean, and how to interpret the assignment instructions. You are encouraged to post such questions to the course discussion forum, and are also encouraged to answer questions posted to the forum from other students. However, you may not give or receive help from others (except the TA) with writing your program code or writing your answers for any of the assignments or tests. Do not show or share your program code with others, and do not view or copy source code from others. Students should not post their code in any publicly accessible locations. All electronic work submitted for this course will be archived and subjected to automatic plagiarism detection. Whenever in doubt, please seek clarifications from the instructor. Students who violate Academic Integrity policies will be immediately reported to the department and the college (which could leave a permanent mark on the transcript).
+**Academic Integrity**: For detailed information on our plagiarism guidelines and consequences, please refer to the [Plagiarism Policy](https://docs.google.com/document/d/1qg0kd-ic0N7prOmLRDCllnzYnnVbnapN_1FeapZAB3s/edit#heading=h.1pkv3m2q9bd8).
 
 **Special Accommodations**: 
 If you need special accommodations because of a disability, please contact the instructor in the first week of classes.
