@@ -56,6 +56,8 @@ The course focuses on various aspects of data-centric security and privacy. Topi
 | |[Machine Learning 2](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.4.2-Adversarial-ML.pdf)
 | Week 4      | [Basic Crypto](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.5-Basic-Crypto.pdf)       |
 | |[Crypto Construct](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.6-Crypto-Construct.pdf)
+| Week 5      | [Trusted Computing 1](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.7.1-Trusted-Computing.pdf)       |
+| |[Trusted Computing 2](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.7.2-Trusted-Computing-Cont.pdf)
 
 ---
 ## Policies
