@@ -60,7 +60,9 @@ The course focuses on various aspects of data-centric security and privacy. Topi
 | |[Trusted Computing 2](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.7.2-Trusted-Computing-Cont.pdf)
 | Week 6      | [Bitcoin](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.8-Bitcoin.pdf)       |
 | |[Information Flow](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.9-Information-Flow.pdf)
-
+| Week 7      | [Healthcare](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.10-Health.pdf)       
+| Week 8      | [Smartphones 1](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.11.1-Smartphone.pdf)       |
+| |[Smartphones 2](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.11.2-Android.pdf)
 ---
 ## Policies
 
