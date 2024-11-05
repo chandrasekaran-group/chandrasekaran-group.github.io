@@ -65,6 +65,8 @@ The course focuses on various aspects of data-centric security and privacy. Topi
 | |[Smartphones 2](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.11.2-Android.pdf)
 | Week 9      | [Crypto Models 1](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.12.1-Crypto-Models-1.pdf)       |
 | |[Crypto Models 2](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.12.2-Crypto-Models-2.pdf)
+| Week 10      | [Web Privacy](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.13-web-privacy.pdf)       |
+| |[Deep Fake](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.14-Deepfake.pdf)
 ---
 ## Policies
 
