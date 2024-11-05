@@ -36,6 +36,22 @@ The course focuses on various aspects of data-centric security and privacy. Topi
 
 ---
 
+## **Final Exam Schedule**
+
+- ### In-person Session:  
+  **Date**: Friday, December 13, 2024  
+  **Location**: ECEB 2013  
+  **Time**: 8:00 AM - 11:00 AM  
+
+- ### Online Session:  
+  **Dates**: Friday, December 13, 2024, Sunday, December 15, 2024, or Monday, December 16, 2024  
+  **Location**: Remotely, proctored by ProctorU  
+  **Time**: Any 3-hour time slot on these 3 days  
+
+For more details or doubts, please check the [Campuswire](https://campuswire.com/c/G1CB36E2B/feed).
+
+---
+
 ## Expected Work
 
 - **Participation**: Students are expected to attend all the lectures, participate in discussions, and attend (some) office hours (online/ offline). Please inform the instructor via email if you
