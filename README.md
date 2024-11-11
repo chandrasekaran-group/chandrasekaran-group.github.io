@@ -2,6 +2,17 @@
 
 [![Screenshot](./preview.png)](https://hugoblox.com/hugo-themes/)
 
+## Use Docker to deploy the site locally
+
+```sh
+docker build -t=varun-site .
+docker run -p 1313:1313 -v "$(pwd):/site" varun-site
+```
+Then open `http://localhost:1313` in your browser to view the site.
+
+This docker container enables hot-reloading, so you can change the code and see the changes in real-time.
+
+----------------
 The **Research Group Template** empowers your research group to easily create a beautiful website with a stunning homepage, news, academic publications, events, team profiles, and a contact form.
 
 ️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, widget-based Wowchemy page builder**, making every site truly personalized ⭐⭐⭐⭐⭐
