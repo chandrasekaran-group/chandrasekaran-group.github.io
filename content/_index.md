@@ -22,7 +22,7 @@ sections:
         My research interests lie at the intersection of Security & Privacy and various domains such as Systems, Networking, Distributed Computing, and Machine Learning. In particular, my research aims to understand what private information can be inferred through interaction with a machine learning model.
         <br>
         Previously, I obtained my MS degree from the [Courant Institute of Mathematical Sciences](https://www.cs.nyu.edu/). I've obtained my B.Eng in Computer Science and Engineering from the [College of Engineering, Guindy](https://www.annauniv.edu/).
-  
+
   - block: collection
     content:
       title: Latest News
@@ -41,7 +41,7 @@ sections:
     design:
       view: card
       columns: '1'
-  
+
   # - block: markdown
   #   content:
   #     title:
@@ -50,7 +50,7 @@ sections:
   #   design:
   #     columns: '1'
   #     background:
-  #       image: 
+  #       image:
   #         filename: coders.jpg
   #         filters:
   #           brightness: 1
@@ -61,7 +61,7 @@ sections:
   #     spacing:
   #       padding: ['20px', '0', '20px', '0']
   #     css_class: fullscreen
-  
+
   - block: markdown
     content:
       title:
@@ -70,13 +70,14 @@ sections:
         {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
     design:
       columns: '1'
-      
+
   - block: markdown
     content:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./courses/cs562/" cta_text="cs562" %}}
+        {{% cta cta_link="./courses/cs562/home" cta_text="CS562" %}}
+        {{% cta cta_link="./courses/cs463/home" cta_text="ECE424/CS463" %}}
     design:
       columns: '1'
 ---
