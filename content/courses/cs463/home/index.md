@@ -89,6 +89,8 @@ For more details or doubts, please check the [Campuswire](https://campuswire.com
 | |[Deep Fake](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.14-Deepfake.pdf)
 | Week 11      | [Automobile](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.15-Automotive.pdf)       |
 | |[Automobile AML](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.16-Automobile-AML.pdf)
+| Week 12      | [Password Security](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.17-Password.pdf)       |
+| |[Side Channel Attack](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.18-Side-Channel.pdf)
 ---
 ## Policies
 
