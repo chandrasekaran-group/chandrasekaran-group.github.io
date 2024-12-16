@@ -11,13 +11,40 @@ title: Home
 
 <!-- # Chandrasekaran Research Group -->
 
+<style>
+  a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+  }
+
+  a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* You can replace this with any color you like */
+  }
+</style>
+
 <span style="font-size: 1.5em; font-weight: bold">Varun Chandrasekaran</span>
 </br>
 <span style="font-size: 1.2em;">Assistant Professor</span>
 </br>
-<span style="font-size: 1.2em;">Department of Electrical & Computer Engineering</span>
+<span style="font-size: 1.2em;">
+    <a href="https://ece.illinois.edu/" target="_blank">
+        Department of Electrical & Computer Engineering
+    </a>
+</span>
 </br>
-<span style="font-size: 1.2em;">University of Illinois at Urbana-Champaign</span>
+<span style="font-size: 1.2em;">
+    <a href="https://siebelschool.illinois.edu/" target="_blank">
+        Siebel School of Computing and Data Science (affiliated)
+    </a>
+</span>
+</br>
+<span style="font-size: 1.2em;">
+    <a href="https://illinois.edu/" target="_blank">
+        University of Illinois at Urbana-Champaign
+    </a>
+</span>
 
 463 Coordinated Science Lab,</br>
 1308 W Main St, Urbana, IL 61820</br>
@@ -29,18 +56,11 @@ title: Home
 
 ---------------------------------
 
-I am now an assistant professor at the Department of Electrical & Computer Engineering at the <a href=https://ece.illinois.edu/ target=_blank rel=noopener>University of Illinois at Urbana-Champaign</a>.
+I am currently an Assistant Professor at the [University of Illinois at Urbana-Champaign](https://illinois.edu/), jointly appointed in the [Department of Electrical & Computer Engineering](https://ece.illinois.edu/) and affiliated with the [Siebel School of Computing and Data Science](https://siebelschool.illinois.edu/).
 
-I graduated from the Department of Computer Sciences at the [University of Wisconsin-Madison](https://www.cs.wisc.edu/), where I was fortunate to work with [Suman Banerjee](http://pages.cs.wisc.edu/~suman/) and [Somesh Jha](http://pages.cs.wisc.edu/~jha/).
+I obtained my Ph.D. in the Department of [Computer Sciences](https://www.cs.wisc.edu/) at the [University of Wisconsin-Madison](https://www.wisc.edu/), where I had the privilege of working with Prof. [Suman Banerjee](http://pages.cs.wisc.edu/~suman/) and Prof. [Somesh Jha](http://pages.cs.wisc.edu/~jha/). Prior to that, I completed my M.S. at the [Courant Institute of Mathematical Sciences](https://www.cs.nyu.edu/) at [New York University](https://www.nyu.edu/). I received my B.Eng. in Computer Science and Engineering from the [College of Engineering, Guindy](https://www.annauniv.edu/).
 
-My research interests lie at the intersection of Security & Privacy and various domains such as Systems, Networking, Distributed Computing, and Machine Learning. In particular, my research aims to understand what private information can be inferred through interaction with a machine learning model.
-
-Previously, I obtained my MS degree from the [Courant Institute of Mathematical Sciences](https://www.cs.nyu.edu/). I've obtained my B.Eng in Computer Science and Engineering from the [College of Engineering, Guindy](https://www.annauniv.edu/).
-
-
----------------------------------
-
-## News
+My research interests lie at the intersection of **Security & Privacy** and fields such as **Systems**, **Networking**, **Distributed Computing**, and **Machine Learning**. Specifically, my work focuses on understanding what private information can be inferred through interactions with machine learning models.
 
 ---------------------------------
 
@@ -57,3 +77,7 @@ Previously, I obtained my MS degree from the [Courant Institute of Mathematical 
 ---------------------------------
 
 ## Publications
+
+---------------------------------
+
+## News
