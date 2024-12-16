@@ -1,6 +1,6 @@
 ---
 title: People
-date: 2022-10-24
+date: 2024-12-16
 
 type: landing
 
@@ -24,3 +24,8 @@ sections:
       show_role: true
       show_social: true
 ---
+
+## New Addition
+- [Tianyang Zhou](https://github.com/qsdrqs), **PhD Student (2023 - Present)**
+- [Qilong Wu](https://www.qilongwu.com/), **PhD Student (2023 - Present)**
+- [Taoran Li](https://taoranl2.github.io), **Master Student (2023 - Present)**

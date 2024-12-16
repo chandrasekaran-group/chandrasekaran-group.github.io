@@ -64,20 +64,4 @@ My research interests lie at the intersection of **Security & Privacy** and fiel
 
 ---------------------------------
 
-## Students
-
-- [Tianyang Zhou](https://github.com/qsdrqs), PhD Student (2023 - Present)
-
----------------------------------
-
-## Teaching
-
-- ECE 424/ CS 463: Computer Security II
-
----------------------------------
-
-## Publications
-
----------------------------------
-
 ## News
