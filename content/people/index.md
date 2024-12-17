@@ -25,7 +25,7 @@ sections:
       show_social: true
 ---
 
-## Current Students
+# Current Students
 
 <h3>Tianyang Zhou</h3>
 <div style="display: flex; align-items: center;">
@@ -60,4 +60,4 @@ sections:
     </div>
 </div>
 
-## Alumni
+# Alumni
