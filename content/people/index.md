@@ -27,7 +27,6 @@ sections:
 
 # Current Students
 
-<link rel="stylesheet" href="/css/custom.css"">
 <h3>Tianyang Zhou</h3>
 <div style="display: flex; align-items: center;">
     <img src="/images/tianyang_zhou.jpg" alt="Tianyang Zhou" class="img-cropped" style="margin-right: 15px;">
