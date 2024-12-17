@@ -7,8 +7,6 @@ title: Home
   <img src="authors/admin/avatar.jpeg" style="transform: scale(2); transform-origin: 57% 38%;"/>
 </div>
 
-<script src="https://kit.fontawesome.com/86d6bc29d3.js" crossorigin="anonymous"></script>
-
 <!-- # Chandrasekaran Research Group -->
 
 <style>
