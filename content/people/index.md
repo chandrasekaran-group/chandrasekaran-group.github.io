@@ -33,7 +33,7 @@ sections:
     <div>
         <strong>PhD Student (2023 - Present)</strong><br>
         Tianyang is a PhD student focusing on security and privacy in machine learning and system.<br>
-        <a href="https://github.com/qsdrqs" target="_blank">GitHub Profile</a> |
+        <a href="https://qsdrqs.github.io" target="_blank">Personal Website</a> |
         <a href="mailto:tz64@illinois.edu" target="_blank">Email</a>
     </div>
 </div>
