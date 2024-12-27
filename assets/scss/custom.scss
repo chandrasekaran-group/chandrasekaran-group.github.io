@@ -1,0 +1,17 @@
+.img-cropped {
+  width: 150px; /* Set fixed width */
+  height: 150px; /* Set fixed height */
+  object-fit: cover; /* Crop the image to fit the dimensions */
+  border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+h3 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.people {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}

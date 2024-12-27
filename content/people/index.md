@@ -27,21 +27,22 @@ sections:
 
 # Current Students
 
-<h3>Tianyang Zhou</h3>
-<div style="display: flex; align-items: center;">
+<div class="people">
     <img src="/images/tianyang_zhou.jpg" alt="Tianyang Zhou" class="img-cropped" style="margin-right: 15px;">
     <div>
+        <h3>Tianyang Zhou</h3>
         <strong>PhD Student (2023 - Present)</strong><br>
-        Tianyang is a PhD student focusing on security and privacy in machine learning and system.<br>
+        Tianyang is a PhD student focusing on software security, system security and machine learning security.
+        Currently, he is working on utilizing machine learning techniques to improve the security of software systems.<br>
         <a href="https://qsdrqs.github.io" target="_blank">Personal Website</a> |
         <a href="mailto:tz64@illinois.edu" target="_blank">Email</a>
     </div>
 </div>
 
-<h3>Qilong Wu</h3>
-<div style="display: flex; align-items: center;">
+<div class='people'>
     <img src="/images/qilong_wu.jpg" alt="Qilong Wu" class="img-cropped" style="margin-right: 15px;">
     <div>
+        <h3>Qilong Wu</h3>
         <strong>PhD Student (2023 - Present)</strong><br>
         Qilong’s research explores trustworthy systems and distributed computing.<br>
         <a href="https://www.qilongwu.com/" target="_blank">Personal Website</a> |
@@ -49,10 +50,10 @@ sections:
     </div>
 </div>
 
-<h3>Taoran Li</h3>
-<div style="display: flex; align-items: center;">
+<div class='people'>
     <img src="/images/taoran_li.jpg" alt="Taoran Li" class="img-cropped" style="margin-right: 15px;">
     <div>
+        <h3>Taoran Li</h3>
         <strong>Master Student (2023 - Present)</strong><br>
         Taoran's research explores trustworthy machine learning systems, especially machine unlearning for LLMs.<br>
         <a href="https://taoranl2.github.io" target="_blank">Personal Website</a> |
