@@ -12,7 +12,7 @@ title: Home
 <style>
   a {
     text-decoration: none;
-    color: inherit;
+    /* color: inherit; */
     transition: color 0.3s ease, text-decoration 0.3s ease;
   }
 
@@ -34,8 +34,8 @@ title: Home
 </br>
 <span style="font-size: 1.2em;">
     <a href="https://siebelschool.illinois.edu/" target="_blank">
-        Siebel School of Computing and Data Science (affiliated)
-    </a>
+        Siebel School of Computing and Data Science
+    </a>(affiliated)
 </span>
 </br>
 <span style="font-size: 1.2em;">
@@ -63,3 +63,5 @@ My research interests lie at the intersection of **Security & Privacy** and fiel
 ---------------------------------
 
 ## News
+
+- **[Jan 2025]**: Our lab website is live!
