@@ -1,11 +1,3 @@
----
-title: Publications
+# Publications
 
-# Listing view
-view: compact
-
-# Optional banner image (relative to `assets/media/` folder).
-banner:
-  caption: ''
-  image: ''
----
+- The Efficacy of Transfer-based No-box Attacks on Image Watermarking: A Pragmatic Analysis
