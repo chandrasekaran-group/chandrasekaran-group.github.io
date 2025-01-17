@@ -27,21 +27,23 @@ sections:
 
 # Current Students
 
-<h3>Tianyang Zhou</h3>
-<div style="display: flex; align-items: center;">
-    <img src="/images/tianyang_zhou.jpg" alt="Tianyang Zhou" class="img-cropped" style="margin-right: 15px;">
+<div class="people">
+    <img src="/images/tianyang_zhou.jpg" alt="Tianyang Zhou" class="img-cropped">
     <div>
+        <h3>Tianyang Zhou</h3>
         <strong>PhD Student (2023 - Present)</strong><br>
-        Tianyang is a PhD student focusing on security and privacy in machine learning and system.<br>
+        Tianyang is a PhD student focusing on software security, system security and machine learning security.
+        Currently, he is working on utilizing machine learning techniques to improve the security of software systems.<br>
+        <a href="https://qsdrqs.github.io" target="_blank">Personal Website</a> |
         <a href="https://github.com/qsdrqs" target="_blank">GitHub</a> |
         <a href="mailto:tz64@illinois.edu" target="_blank">Email</a>
     </div>
 </div>
 
-<h3>Qilong Wu</h3>
-<div style="display: flex; align-items: center;">
-    <img src="/images/qilong_wu.jpg" alt="Qilong Wu" class="img-cropped" style="margin-right: 15px;">
+<div class='people'>
+    <img src="/images/qilong_wu.jpg" alt="Qilong Wu" class="img-cropped" style="min-width: 150px; object-position: 50% 30%;">
     <div>
+        <h3>Qilong Wu</h3>
         <strong>PhD Student (2023 - Present)</strong><br>
         Qilong is a first-year Ph.D. student in Computer Science at UIUC, advised by Prof. Varun Chandrasekaran. Qilong earned an M.S. in Computer Science at UIUC and a B.S. from Nanjing University (Kuang Yaming Honors School). Qilong also served as a research assistant at the Berkeley AI Research (BAIR) Lab. His work focuses on trustworthy machine learning, including multitask and transfer learning, as well as security.<br>
         <a href="https://www.qilongwu.com/" target="_blank">Personal Website</a> |
@@ -51,10 +53,10 @@ sections:
     </div>
 </div>
 
-<h3>Taoran Li</h3>
-<div style="display: flex; align-items: center;">
-    <img src="/images/taoran_li.jpg" alt="Taoran Li" class="img-cropped" style="margin-right: 15px;">
+<div class='people'>
+    <img src="/images/taoran_li.jpg" alt="Taoran Li" class="img-cropped">
     <div>
+        <h3>Taoran Li</h3>
         <strong>Master Student (2023 - Present)</strong><br>
         Taoran Li is a second-year Master’s student in Computer Engineering at UIUC. Taoran earned a B.S. in Computer Engineering through a dual-degree program between Zhejiang University and UIUC. His work focuses on trustworthy machine learning, and cryptographic protocols. Currently, Taoran's research explores machine unlearning techniques for LLMs.<br>
         <a href="https://taoranl2.github.io" target="_blank">Personal Website</a> |
