@@ -1,4 +1,4 @@
-{{ $customSCSS := resources.Get "scss/custom.scss" | css.Sass | minify | fingerprint }}
+{{ $customSCSS := resources.Get "scss/custom.scss" | resources.ToCSS | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $customSCSS.Permalink }}">
 <script src="https://kit.fontawesome.com/86d6bc29d3.js" crossorigin="anonymous"></script>
 
