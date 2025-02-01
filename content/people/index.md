@@ -32,8 +32,7 @@ sections:
     <div>
         <h3>Tianyang Zhou</h3>
         <strong>PhD Student (2023 - Present)</strong><br>
-        Tianyang is a PhD student focusing on software security, system security and machine learning security.
-        Currently, he is working on utilizing machine learning techniques to improve the security of software systems.<br>
+        Tianyang is a Ph.D. student focusing on software security, system security and machine learning security. Currently, he is working on utilizing machine learning techniques to improve the security of software systems.<br>
         <a href="https://qsdrqs.github.io" target="_blank">Personal Website</a> |
         <a href="https://github.com/qsdrqs" target="_blank">GitHub</a> |
         <a href="mailto:tz64@illinois.edu" target="_blank">Email</a>
@@ -54,11 +53,22 @@ sections:
 </div>
 
 <div class='people'>
+    <img src="/images/fan_wu.jpg" alt="Fan Wu" class="img-cropped">
+    <div>
+        <h3>Fan Wu</h3>
+        <strong>PhD Student (2022 - Present)</strong><br>
+        Fan is a 5-th year Ph.D. student in Computer Science at UIUC. Her research focuses on privacy in machine learning.<br>
+        <a href="https://scholar.google.com/citations?user=qd8WzBMAAAAJ&hl=en" target="_blank">Google Scholar</a> |
+        <a href="mailto:fanw6@illinois.edu" target="_blank">Email</a>
+    </div>
+</div>
+
+<div class='people'>
     <img src="/images/taoran_li.jpg" alt="Taoran Li" class="img-cropped">
     <div>
         <h3>Taoran Li</h3>
         <strong>Master Student (2023 - Present)</strong><br>
-        Taoran Li is a second-year Master’s student in Computer Engineering at UIUC. Taoran earned a B.S. in Computer Engineering through a dual-degree program between Zhejiang University and UIUC. His work focuses on trustworthy machine learning, and cryptographic protocols. Currently, Taoran's research explores machine unlearning techniques for LLMs.<br>
+        Taoran Li is a second-year Master’s student in Computer Engineering at UIUC. His work focuses on trustworthy machine learning and cryptographic protocols. Currently, Taoran's research explores machine unlearning techniques for LLMs.<br>
         <a href="https://taoranl2.github.io" target="_blank">Personal Website</a> |
         <a href="https://github.com/taoranl2" target="_blank">GitHub</a> |
         <a href="mailto:taoranl2@illinois.edu" target="_blank">Email</a>
