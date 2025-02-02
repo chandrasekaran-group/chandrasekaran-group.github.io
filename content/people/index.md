@@ -34,6 +34,7 @@ sections:
         <strong>PhD Student (2023 - Present)</strong><br>
         Tianyang is a Ph.D. student focusing on software security, system security and machine learning security. Currently, he is working on utilizing machine learning techniques to improve the security of software systems.<br>
         <a href="https://qsdrqs.github.io" target="_blank">Personal Website</a> |
+        <a href="https://scholar.google.com/citations?user=-E4zajkAAAAJ&hl=en" target="_blank">Google Scholar</a> |
         <a href="https://github.com/qsdrqs" target="_blank">GitHub</a> |
         <a href="mailto:tz64@illinois.edu" target="_blank">Email</a>
     </div>
@@ -57,9 +58,34 @@ sections:
     <div>
         <h3>Fan Wu</h3>
         <strong>PhD Student (2022 - Present)</strong><br>
-        Fan is a 5-th year Ph.D. student in Computer Science at UIUC. Her research focuses on privacy in machine learning.<br>
+        Fan is a fifth-year Ph.D. student in Computer Science at UIUC. Her research focuses on privacy in machine learning.<br>
         <a href="https://scholar.google.com/citations?user=qd8WzBMAAAAJ&hl=en" target="_blank">Google Scholar</a> |
         <a href="mailto:fanw6@illinois.edu" target="_blank">Email</a>
+    </div>
+</div>
+
+<div class='people'>
+    <img src="/images/rishabh_adiga.jpg" alt="Rishabh Adiga" class="img-cropped">
+    <div>
+        <h3>Rishabh Adiga</h3>
+        <strong>Master's Student (2023 - Present)</strong><br>
+        Rishabh is a second-year Master's student in Computer Science at UIUC and is advised by Prof. Varun Chandrasekaran. Rishabh completed his Bachelor's degree at IIT Madras in India. His work focuses on research interests focus on developing reliable, interpretable and responsible AI with a high level interest in general NLP. Rishabh is currently working on multi-modal reasoning in VLMs, emergence of in-context learning and using LLMs for privacy policy analysis.<br>
+        <a href="https://rishabhadiga.github.io/" target="_blank">Personal Website</a> |
+        <a href="https://scholar.google.com/citations?hl=en&user=D75JgJsAAAAJ" target="_blank">Google Scholar</a> |
+        <a href="https://github.com/RishabhAdiga" target="_blank">GitHub</a> |
+        <a href="mailto:radiga2@illinois.edu" target="_blank">Email</a>
+    </div>
+</div>
+
+<div class='people'>
+    <img src="/images/tue_do.jpg" alt="Tue Do" class="img-cropped">
+    <div>
+        <h3>Tue Do</h3>
+        <strong>Master's Student (2024 - Present)</strong><br>
+        Tue Do is a first-year Master's student in the Electrical & Computer Engineering department at UIUC. He earned two bachelor's degrees in Computer Science and Mathematics from UIUC.  He likes to think about randomized algorithms generally, with a focus on privacy-preserving algorithms. He is currently working on private data attribution and in-context learning.<br>
+        <a href="https://tuedo2.github.io" target="_blank">Personal Website</a> |
+        <a href="https://scholar.google.com/citations?hl=en&user=wmWJSxQAAAAJ" target="_blank">Google Scholar</a> |
+        <a href="mailto:tuedo2@illinois.edu" target="_blank">Email</a>
     </div>
 </div>
 
@@ -67,7 +93,7 @@ sections:
     <img src="/images/taoran_li.jpg" alt="Taoran Li" class="img-cropped">
     <div>
         <h3>Taoran Li</h3>
-        <strong>Master Student (2023 - Present)</strong><br>
+        <strong>Master's Student (2023 - Present)</strong><br>
         Taoran Li is a second-year Master’s student in Computer Engineering at UIUC. His work focuses on trustworthy machine learning and cryptographic protocols. Currently, Taoran's research explores machine unlearning techniques for LLMs.<br>
         <a href="https://taoranl2.github.io" target="_blank">Personal Website</a> |
         <a href="https://github.com/taoranl2" target="_blank">GitHub</a> |
