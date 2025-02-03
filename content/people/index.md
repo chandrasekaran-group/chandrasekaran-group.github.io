@@ -78,7 +78,7 @@ sections:
 </div>
 
 <div class='people'>
-    <img src="/images/rishabh_adiga.jpg" alt="Rishabh Adiga" class="img-cropped" style="min-width: 150px; object-position: 50% 30%;">
+    <img src="/images/rishabh_adiga.jpg" alt="Rishabh Adiga" class="img-cropped" style="min-width: 150px; object-position: 50% 0%;">
     <div>
         <h3>Rishabh Adiga</h3>
         <strong>Master's Student (2023 - Present)</strong><br>
@@ -98,6 +98,7 @@ sections:
         Tue is a first-year Master's student in the Electrical & Computer Engineering department at UIUC. He earned two bachelor's degrees in Computer Science and Mathematics from UIUC.  He likes to think about randomized algorithms generally, with a focus on privacy-preserving algorithms. He is currently working on private data attribution and in-context learning.<br>
         <a href="https://tuedo2.github.io" target="_blank">Personal Website</a> |
         <a href="https://scholar.google.com/citations?hl=en&user=wmWJSxQAAAAJ" target="_blank">Google Scholar</a> |
+        <a href="https://github.com/tuedo2" target="_blank">GitHub</a> |
         <a href="mailto:tuedo2@illinois.edu" target="_blank">Email</a>
     </div>
 </div>
