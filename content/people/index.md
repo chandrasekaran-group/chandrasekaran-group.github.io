@@ -78,7 +78,7 @@ sections:
 </div>
 
 <div class='people'>
-    <img src="/images/rishabh_adiga.jpg" alt="Rishabh Adiga" class="img-cropped">
+    <img src="/images/rishabh_adiga.jpg" alt="Rishabh Adiga" class="img-cropped" style="min-width: 150px; object-position: 50% 30%;">
     <div>
         <h3>Rishabh Adiga</h3>
         <strong>Master's Student (2023 - Present)</strong><br>
@@ -91,7 +91,7 @@ sections:
 </div>
 
 <div class='people'>
-    <img src="/images/tue_do.jpg" alt="Tue Do" class="img-cropped">
+    <img src="/images/tue_do.jpg" alt="Tue Do" class="img-cropped" style="min-width: 150px; object-position: 50% 30%;">
     <div>
         <h3>Tue Do</h3>
         <strong>Master's Student (2024 - Present)</strong><br>
