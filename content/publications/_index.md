@@ -55,3 +55,39 @@
 - **[CONFIDANT: A Privacy Controller for Social Robots](https://arxiv.org/abs/2201.02712)**  
   *Brian Tang, Dakota Sullivan, Bengisu Cagiltay, **Varun Chandrasekaran**, Kassem Fawaz, Bilge Mutlu*  
   _17th ACM/IEEE International Conference on Human-Robot Interaction (HRI), March 2022_
+
+- **[PowerCut and Obfuscator: An Exploration of the Design Space for Privacy-Preserving Interventions for Smart Speakers](https://www.usenix.org/conference/soups2021/presentation/chandrasekaran)**  
+  *Varun Chandrasekaran, Suman Banerjee, Bilge Mutlu, Kassem Fawaz*  
+  _17th USENIX Symposium on Usable Privacy and Security (SOUPS), August 2021_
+
+- **[A General Framework For Detecting Anomalous Inputs to DNN Classifiers](https://arxiv.org/abs/2007.15147)**  
+  *Jayaram Raghuram, **Varun Chandrasekaran**, Somesh Jha, Suman Banerjee*  
+  _38th International Conference on Machine Learning (ICML), July 2021_
+
+- **[Proof-of-Learning: Definitions and Practice](https://arxiv.org/abs/2103.05633)**  
+  *Hengrui Jia, Mohammad Yaghini, Christopher A. Choquette-Choo, Natalie Dullerud, Anvith Thudi, **Varun Chandrasekaran**, Nicolas Papernot*  
+  _42nd IEEE Symposium on Security and Privacy (S&P), May 2021_
+
+- **[Entangled Watermarks as a Defense against Model Extraction](https://arxiv.org/abs/2002.12200)**  
+  *Hengrui Jia, Christopher A. Choquette-Choo, **Varun Chandrasekaran**, Nicolas Papernot*  
+  _30th USENIX Security Symposium, August 2021_
+
+- **[Face-Off: Adversarial Face Obfuscation](https://arxiv.org/abs/2003.08861)**  
+  *Varun Chandrasekaran\*, Chuhan Gao\*, Brian Tang, Kassem Fawaz, Somesh Jha, Suman Banerjee*  
+  _21st Proceedings on Privacy Enhancing Technologies (PoPETS), July 2021_
+
+- **[Machine Unlearning](https://arxiv.org/abs/1912.03817)**  
+  *Lucas Bourtoule\*, **Varun Chandrasekaran\***, Christopher A. Choquette-Choo\*, Hengrui Jia\*, Adelin Travers\*, Baiwu Zhang\*, David Lie, Nicolas Papernot*  
+  _42nd IEEE Symposium on Security and Privacy (S&P), May 2021_
+
+- **[Exploring Connections Between Active Learning and Model Extraction](https://www.usenix.org/conference/usenixsecurity20/presentation/chandrasekaran)**  
+  **Varun Chandrasekaran**, Kamalika Chaudhuri, Irene Giacomelli, Somesh Jha, Songbai Yan*  
+  _29th USENIX Security Symposium, August 2020_
+
+- **[A Framework for Analyzing Spectrum Characteristics in Large Spatio-Temporal Scales](https://dl.acm.org/doi/10.1145/3300061.3345450)**  
+  *Yijing Zeng, **Varun Chandrasekaran**, Suman Banerjee, Domenico Giustiniano*  
+  _25th Annual International Conference on Mobile Computing and Networking (MobiCom), October 2019_
+
+- **[Alphacodes: Usable, Secure Transactions with Untrusted Providers using Human Computable Puzzles](https://dl.acm.org/doi/10.1145/3001913.3001924)**  
+  *Ashlesh Sharma, **Varun Chandrasekaran**, Fareeha Amjad, Dennis Shasha, Lakshmi Subramanian*  
+  _7th Annual Symposium on Computing for Development (DEV), November 2016_
