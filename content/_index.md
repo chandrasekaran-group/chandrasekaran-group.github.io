@@ -56,7 +56,7 @@ title: Home
 
 I am currently an Assistant Professor at the [University of Illinois at Urbana-Champaign](https://illinois.edu/), jointly appointed in the [Department of Electrical & Computer Engineering](https://ece.illinois.edu/) and affiliated with the [Siebel School of Computing and Data Science](https://siebelschool.illinois.edu/).
 
-I obtained my Ph.D. in the Department of [Computer Sciences](https://www.cs.wisc.edu/) at the [University of Wisconsin-Madison](https://www.wisc.edu/), where I had the privilege of working with Prof. [Suman Banerjee](http://pages.cs.wisc.edu/~suman/) and Prof. [Somesh Jha](http://pages.cs.wisc.edu/~jha/). Prior to that, I completed my M.S. at the [Courant Institute of Mathematical Sciences](https://www.cs.nyu.edu/) at [New York University](https://www.nyu.edu/). I received my B.Eng. in Computer Science and Engineering from the [College of Engineering, Guindy](https://www.annauniv.edu/).
+I obtained my Ph.D. in the Department of [Computer Sciences](https://www.cs.wisc.edu/) at the [University of Wisconsin-Madison](https://www.wisc.edu/), where I had the privilege of working with Prof. [Suman Banerjee](http://pages.cs.wisc.edu/~suman/) and Prof. [Somesh Jha](http://pages.cs.wisc.edu/~jha/). Prior to that, I completed my M.S. at the [Courant Institute of Computer Science](https://www.cs.nyu.edu/) at [New York University](https://www.nyu.edu/). I received my B.Eng. in Computer Science and Engineering from the [Anna University, Chennai, India](https://www.annauniv.edu/).
 
 My research interests lie at the intersection of **Security & Privacy** and fields such as **Systems**, **Networking**, **Distributed Computing**, and **Machine Learning**. Specifically, my work focuses on understanding what private information can be inferred through interactions with machine learning models.
 
@@ -64,4 +64,5 @@ My research interests lie at the intersection of **Security & Privacy** and fiel
 
 ## News
 
-- **[Jan 2025]**: Our lab website is live!
+- **[01/22/2025]**: Our paper [Generative Monoculture in Large Language Models](https://arxiv.org/abs/2407.02209) and [LOTOS: Layer-wise Orthogonalization for Training Robust Ensembles](https://arxiv.org/abs/2410.05136) has been accepted by ICLR 2025! 
+- **[01/19/2025]**: Our lab website is live!
