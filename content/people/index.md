@@ -1,6 +1,6 @@
 ---
 title: People
-date: 2024-12-16
+date: 2025-02-02
 
 type: landing
 
@@ -54,6 +54,19 @@ sections:
 </div>
 
 <div class='people'>
+    <img src="/images/ali.jpg" alt="Ali Ebrahimpour Boroojeny" class="img-cropped" style="min-width: 150px; object-position: 50% 30%;">
+    <div>
+        <h3>Ali Ebrahimpour Boroojeny</h3>
+        <strong>PhD Student (2024 - Present)</strong><br>
+        Ali is a Ph.D. student in Computer Science at UIUC. His research focuses on Security and Privacy in Machine Learning. He is also interested in applications of Machine Learning in Bioinformatics. He is working with Professor Hari Sundaram and Professor Varun Chandrasekaran.<br>
+        <a href="https://ali-e.github.io/" target="_blank">Personal Website</a> |
+        <a href="https://scholar.google.com/citations?user=98J7AAkAAAAJ&hl=en" target="_blank">Google Scholar</a> |
+        <a href="https://github.com/Ali-E" target="_blank">GitHub</a> |
+        <a href="mailto:ae20@illinois.edu" target="_blank">Email</a>
+    </div>
+</div>
+
+<div class='people'>
     <img src="/images/fan_wu.jpg" alt="Fan Wu" class="img-cropped">
     <div>
         <h3>Fan Wu</h3>
@@ -82,7 +95,7 @@ sections:
     <div>
         <h3>Tue Do</h3>
         <strong>Master's Student (2024 - Present)</strong><br>
-        Tue Do is a first-year Master's student in the Electrical & Computer Engineering department at UIUC. He earned two bachelor's degrees in Computer Science and Mathematics from UIUC.  He likes to think about randomized algorithms generally, with a focus on privacy-preserving algorithms. He is currently working on private data attribution and in-context learning.<br>
+        Tue is a first-year Master's student in the Electrical & Computer Engineering department at UIUC. He earned two bachelor's degrees in Computer Science and Mathematics from UIUC.  He likes to think about randomized algorithms generally, with a focus on privacy-preserving algorithms. He is currently working on private data attribution and in-context learning.<br>
         <a href="https://tuedo2.github.io" target="_blank">Personal Website</a> |
         <a href="https://scholar.google.com/citations?hl=en&user=wmWJSxQAAAAJ" target="_blank">Google Scholar</a> |
         <a href="mailto:tuedo2@illinois.edu" target="_blank">Email</a>
@@ -94,7 +107,7 @@ sections:
     <div>
         <h3>Taoran Li</h3>
         <strong>Master's Student (2023 - Present)</strong><br>
-        Taoran Li is a second-year Master’s student in Computer Engineering at UIUC. His work focuses on trustworthy machine learning and cryptographic protocols. Currently, Taoran's research explores machine unlearning techniques for LLMs.<br>
+        Taoran is a second-year Master’s student in Computer Engineering at UIUC. His work focuses on trustworthy machine learning and cryptographic protocols. Currently, Taoran's research explores machine unlearning techniques for LLMs.<br>
         <a href="https://taoranl2.github.io" target="_blank">Personal Website</a> |
         <a href="https://github.com/taoranl2" target="_blank">GitHub</a> |
         <a href="mailto:taoranl2@illinois.edu" target="_blank">Email</a>
