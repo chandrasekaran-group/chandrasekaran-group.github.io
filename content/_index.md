@@ -45,7 +45,7 @@ title: Home
 </span>
 
 463 Coordinated Science Lab,</br>
-1308 W Main St, Urbana, IL 61820</br>
+1308 W Main St, Urbana, IL 61801</br>
 
 <a href="mailto:varunc@illinois.edu"><i class="fa-solid fa-envelope fa-lg" style="color: #006BFF; margin: 2px"></i></a>
 <a href="https://scholar.google.com/citations?user=Sl7nSOsAAAAJ&hl=en" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-google-scholar fa-lg" style="color: #006BFF; margin: 2px"></i></a>
