@@ -57,7 +57,7 @@
   _17th ACM/IEEE International Conference on Human-Robot Interaction (HRI), March 2022_
 
 - **[PowerCut and Obfuscator: An Exploration of the Design Space for Privacy-Preserving Interventions for Smart Speakers](https://www.usenix.org/conference/soups2021/presentation/chandrasekaran)**  
-  *Varun Chandrasekaran, Suman Banerjee, Bilge Mutlu, Kassem Fawaz*  
+  ***Varun Chandrasekaran**, Suman Banerjee, Bilge Mutlu, Kassem Fawaz*  
   _17th USENIX Symposium on Usable Privacy and Security (SOUPS), August 2021_
 
 - **[A General Framework For Detecting Anomalous Inputs to DNN Classifiers](https://arxiv.org/abs/2007.15147)**  
@@ -73,7 +73,7 @@
   _30th USENIX Security Symposium, August 2021_
 
 - **[Face-Off: Adversarial Face Obfuscation](https://arxiv.org/abs/2003.08861)**  
-  *Varun Chandrasekaran\*, Chuhan Gao\*, Brian Tang, Kassem Fawaz, Somesh Jha, Suman Banerjee*  
+  ***Varun Chandrasekaran\***, Chuhan Gao\*, Brian Tang, Kassem Fawaz, Somesh Jha, Suman Banerjee*  
   _21st Proceedings on Privacy Enhancing Technologies (PoPETS), July 2021_
 
 - **[Machine Unlearning](https://arxiv.org/abs/1912.03817)**  
