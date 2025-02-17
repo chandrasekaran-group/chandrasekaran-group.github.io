@@ -1,5 +1,7 @@
 ---
 title: Home
+description: "Official website of the Chandrasekaran Research Group"
+keywords: "Chandrasekaran Research Group, Varun Chandrasekaran, University of Illinois at Urbana-Champaign"
 ---
 
 
@@ -22,8 +24,7 @@ title: Home
   }
 </style>
 
-<span style="font-size: 1.5em; font-weight: bold">Varun Chandrasekaran</span>
-</br>
+<h1 style="font-size: 1.5em; font-weight: bold;">Varun Chandrasekaran</h1>
 <span style="font-size: 1.2em;">Assistant Professor</span>
 </br>
 <span style="font-size: 1.2em;">
