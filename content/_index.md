@@ -65,6 +65,7 @@ My research interests lie at the intersection of **Security & Privacy** and fiel
 
 ## News
 
+- **[05/10/2025]**: Our paper [Not All Wrong is Bad: Using Adversarial Examples for Unlearning](https://arxiv.org/abs/2503.00917) has been accepted by ICML 2025! Congratulations to all the authors!
 - **[01/22/2025]**: Our paper [Unearthing Skill-Level Insights for Understanding Trade-Offs of Foundation Models](https://arxiv.org/abs/2410.13826) has been accepted by ICLR 2025! Congratulations to all the authors!
 - **[01/22/2025]**: Our paper [LOTOS: Layer-wise Orthogonalization for Training Robust Ensembles](https://arxiv.org/abs/2410.05136) has been accepted by ICLR 2025! Congratulations to all the authors!
 - **[01/22/2025]**: Our paper [Generative Monoculture in Large Language Models](https://arxiv.org/abs/2407.02209) has been accepted by ICLR 2025! Congratulations to all the authors!
