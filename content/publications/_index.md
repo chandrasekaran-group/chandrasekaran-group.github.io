@@ -1,5 +1,9 @@
 # Publications
 
+- **[Not All Wrong is Bad: Using Adversarial Examples for Unlearning](https://arxiv.org/abs/2503.00917)**  
+  *Ali Ebrahimpour-Boroojeny, Hari Sundaram, Varun Chandrasekaran*  
+  _42nd International Conference on Machine Learning (ICML), July 2025_
+
 - **[Generative Monoculture in Large Language Models](https://arxiv.org/abs/2407.02209)**  
   *Fan Wu, Emily Black, Varun Chandrasekaran*  
   _13th International Conference on Learning Representations (ICLR), April 2025_
@@ -17,7 +21,7 @@
   _3rd IEEE Conference on Secure and Trustworthy Machine Learning (SaTML), April 2025_
 
 - **[Hierarchical Federated Learning with Privacy](https://arxiv.org/abs/2206.05209)**  
-  Varun Chandrasekaran, Suman Banerjee, Diego Perino, Nicolas Kourtellis*  
+  *Varun Chandrasekaran, Suman Banerjee, Diego Perino, Nicolas Kourtellis*  
   _2024 IEEE International Conference on Big Data, December 2024_
 
 - **[Bypassing LLM Watermarks with Color-Aware Substitutions](https://arxiv.org/abs/2403.14719)**  
