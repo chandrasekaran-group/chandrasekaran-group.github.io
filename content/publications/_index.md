@@ -26,7 +26,7 @@
 
 - **[Designing Informative Metrics for Few-Shot Example Selection](https://aclanthology.org/2024.findings-acl.602/)**  
   *Rishabh Adiga, Lakshmi Subramanian, **Varun Chandrasekaran***  
-  _Findings of the Association for Computational Linguistics: ACL 2024, August 2024_
+  _62nd Annual Meeting of the Association for Computational Linguistics (ACL), August 2024_
 
 - **[Privately Aligning Language Models with Reinforcement Learning](https://arxiv.org/abs/2310.16960)**  
   *Fan Wu, Huseyin A. Inan, Arturs Backurs, **Varun Chandrasekaran**, Janardhan Kulkarni, Robert Sim*  
