@@ -1,6 +1,10 @@
 # Publications
 
-- **[Not All Wrong is Bad: Using Adversarial Examples for Unlearning](https://arxiv.org/abs/2503.00917)**  
+- **[Attention Speaks Volumes: Localizing and Mitigating Bias in Language Models](https://arxiv.org/abs/2410.22517)**  
+  *Rishabh Adiga, Besmira Nushi, Varun Chandrasekaran*  
+  _63rd Annual Meeting of the Association for Computational Linguistics (ACL), July 2025_
+
+  - **[Not All Wrong is Bad: Using Adversarial Examples for Unlearning](https://arxiv.org/abs/2503.00917)**  
   *Ali Ebrahimpour-Boroojeny, Hari Sundaram, Varun Chandrasekaran*  
   _42nd International Conference on Machine Learning (ICML), July 2025_
 
