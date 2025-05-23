@@ -110,6 +110,7 @@ sections:
         <strong>Master's Student (2023 - Present)</strong><br>
         Taoran is a second-year Master’s student in Computer Engineering at UIUC. His work focuses on trustworthy machine learning and cryptographic protocols. Currently, Taoran's research explores machine unlearning techniques for LLMs.<br>
         <a href="https://taoranl2.github.io" target="_blank">Personal Website</a> |
+        <a href="https://scholar.google.com/citations?hl=en&user=fSnTvhgAAAAJ" target="_blank">Google Scholar</a> |
         <a href="https://github.com/taoranl2" target="_blank">GitHub</a> |
         <a href="mailto:taoranl2@illinois.edu" target="_blank">Email</a>
     </div>
