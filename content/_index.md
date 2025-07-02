@@ -65,7 +65,6 @@ My research interests lie at the intersection of **Security & Privacy** and fiel
 
 ## News
 
-- **[07/01/2025]**: Our paper [RealiTiCheck: A Real-Time Automated Fact-Checking System] has been accepted by CCS 2025! Congratulations to all the authors!
 - **[07/01/2025]**: We have been awarded a [Google Research Scholar](https://research.google/programs-and-events/research-scholar-program/recipients/) award for our work on security and privacy! Congratulations to the group!
 - **[05/15/2025]**: Our paper [Attention Speaks Volumes: Localizing and Mitigating Bias in Language Models](https://arxiv.org/abs/2410.22517) has been accepted by ACL 2025! Congratulations to all the authors!
 - **[05/10/2025]**: Our paper [Not All Wrong is Bad: Using Adversarial Examples for Unlearning](https://arxiv.org/abs/2503.00917) has been accepted by ICML 2025! Congratulations to all the authors!
