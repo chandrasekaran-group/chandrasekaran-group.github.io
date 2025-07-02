@@ -1,9 +1,5 @@
 # Publications
 
-- **[RealiTiCheck: A Real-Time Automated Fact-Checking System]**  
-  *Arshia Arya, Haodi Zou, Gauthami Yenne, Varun Chandrasekaran, Deepak Kumar*  
-  _32nd ACM Conference on Computer and Communications Security (CCS), October 2025_
-  
 - **[Attention Speaks Volumes: Localizing and Mitigating Bias in Language Models](https://arxiv.org/abs/2410.22517)**  
   *Rishabh Adiga, Besmira Nushi, Varun Chandrasekaran*  
   _63rd Annual Meeting of the Association for Computational Linguistics (ACL), July 2025_
