@@ -11,19 +11,17 @@ date: 2024-08-12
 
 | **Instructor**        | [Varun Chandrasekaran](https://chandrasekaran-group.github.io/) (varunc@illinois.edu)      |
 |-----------------------|-------------------------------------------------------------------------------------------|
-| **TAs**                | [Daniel Hsu](mailto:chhsu5@illinois.edu) (chhsu5@illinois.edu)                             |
-|                       | [Sujithra Rajan](mailto:rajan11@illinois.edu) (rajan11@illinois.edu)                       |
-| **Time/Location**     | **BG/ BU Section**: Tuesday & Thursday (11:30 AM - 12:50 PM). Electrical & Computer Eng Bldg -  Room 2013 |
-|                       | **DSO Section**: online and asynchronous via [Coursera](https://www.coursera.org/)         |
+| **TAs**               | Not assigned yet                                                                          |
+| **Time/Location**     | **BG/ BU Section**: online and asynchronous                                               |
+|                       | **DSO Section**: online and asynchronous                                                  |
 | **Syllabus**          | [Link to Syllabus](https://www.dropbox.com/scl/fi/bdipz4hmcdiuplsn3zg6s/syllabus_424.pdf?rlkey=j9i8l1ffgtx60b2e0hpch8pt1&dl=0) |
 
 ---
 > ### Announcement
 >
-> 8/26/2024: [First week of class] Enrolled students will be added/invited to ECE 424/ CS 463 Campuswire before the first week of the class. If you registered during/after the first week and did not get the Campuswire invitation, please email the
-instructor (varunc@illinois.edu) for the invitation code.
+> 8/24/2025: First week of class — Enrolled students will be added/invited to ECE 424/ CS 463 Campuswire before the first week of the class. If you registered during/after the first week and did not get the Campuswire invitation, please email the instructor (varunc@illinois.edu) for the invitation code.
 >
-> MPs will be released (and submitted) via Github. If you have not done so, please create a Github account. For students who have already enrolled, We will provide detailed tutorials and instructions on how to sign up with class repo and check out MPs. We use Campuswire for Q&A and discussions. You will be added to campuswire by the course staff.
+> MPs will be released (and submitted) via Github. If you have not done so, please create a Github account. For students who have already enrolled, we will provide detailed tutorials and instructions on how to sign up with class repo and check out MPs. We use Campuswire for Q&A and discussions. You will be added to campuswire by the course staff.
 ---
 
 ## Class Description
@@ -38,28 +36,16 @@ The course focuses on various aspects of data-centric security and privacy. Topi
 
 ## **Final Exam Schedule**
 
-- ### In-person Session:  
-  **Date**: Friday, December 13, 2024  
-  **Location**: ECEB 2013  
-  **Time**: 8:00 AM - 11:00 AM  
-
 - ### Online Session:  
-  **Dates**:
-   - Friday, December 13, 2024 (or)
-   - Sunday, December 15, 2024 (or)
-   - Monday, December 16, 2024 
-
-  **Location**: Remotely, proctored by ProctorU  
-  **Time**: Any 3-hour time slot on these 3 days  
-
-For more details or doubts, please check the [Campuswire](https://campuswire.com/c/G1CB36E2B/feed).
+  **Date**: Not decided  
+  **Location**: Not decided  
+  **Time**: Not decided  
 
 ---
 
 ## Expected Work
 
-- **Participation**: Students are expected to attend all the lectures, participate in discussions, and attend (some) office hours (online/ offline). Please inform the instructor via email if you
-  cannot make it to the class due to travel or sickness.
+- **Participation**: Students are expected to attend all the lectures, participate in discussions, and attend (some) office hours (online/ offline). Please inform the instructor via email if you cannot make it to the class due to travel or sickness.
 
 - **Machine Problems (MP)**: Students are expected to work on 5 MPs throughout the semester (**individual effort only**). The problems will involve hands-on programming and data analysis, covering various topics that complement the lecture topics. Example topics include tracking user location based on social network data, interacting with Bitcoin APIs, multi-party computation without directly exchanging data. All deadlines are 11:59 PM (CT) of the specific date.
 
@@ -68,31 +54,32 @@ For more details or doubts, please check the [Campuswire](https://campuswire.com
 
 | `WEEK`      | `STUDY MATERIAL` |
 | ----------- | ----------- |
-| Week 1      | [Course Plan](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.0-Course-Plan.pdf)       |
-| |[Introduction](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.1-Introduction.pdf)
-| Week 2      | [Social Networks](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.2-Social-Net.pdf)       |
-| |[De-Identification](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.3-De-Identification.pdf)
-| Week 3      | [Machine Learning 1](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.4.1-Machine-Learning-Security.pdf)       |
-| |[Machine Learning 2](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.4.2-Adversarial-ML.pdf)
-| Week 4      | [Basic Crypto](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.5-Basic-Crypto.pdf)       |
-| |[Crypto Construct](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.6-Crypto-Construct.pdf)
-| Week 5      | [Trusted Computing 1](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.7.1-Trusted-Computing.pdf)       |
-| |[Trusted Computing 2](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.7.2-Trusted-Computing-Cont.pdf)
-| Week 6      | [Bitcoin](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.8-Bitcoin.pdf)       |
-| |[Information Flow](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.9-Information-Flow.pdf)
-| Week 7      | [Healthcare](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.10-Health.pdf)       
-| Week 8      | [Smartphones 1](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.11.1-Smartphone.pdf)       |
-| |[Smartphones 2](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.11.2-Android.pdf)
-| Week 9      | [Crypto Models 1](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.12.1-Crypto-Models-1.pdf)       |
-| |[Crypto Models 2](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.12.2-Crypto-Models-2.pdf)
-| Week 10      | [Web Privacy](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.13-web-privacy.pdf)       |
-| |[Deep Fake](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.14-Deepfake.pdf)
-| Week 11      | [Automobile](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.15-Automotive.pdf)       |
-| |[Automobile AML](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.16-Automobile-AML.pdf)
-| Week 12      | [Password Security](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.17-Password.pdf)       |
-| |[Side Channel Attack](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.18-Side-Channel.pdf)
-| Week 13      | [Stylometry](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.19-Stylometry.pdf)       |
-| |[Cyber Warfare](https://raw.githubusercontent.com/chandrasekaran-group/chandrasekaran-group.github.io/main/content/courses/cs463/home/463.20-Cyber-Warfare.pdf)
+| Week 1      | [Course Plan]()       |
+|             | [Introduction]()      |
+| Week 2      | [Social Networks]()   |
+|             | [De-Identification]() |
+| Week 3      | [Machine Learning 1]() |
+|             | [Machine Learning 2]() |
+| Week 4      | [Basic Crypto]()      |
+|             | [Crypto Construct]()  |
+| Week 5      | [Trusted Computing 1]() |
+|             | [Trusted Computing 2]() |
+| Week 6      | [Bitcoin]()           |
+|             | [Information Flow]()  |
+| Week 7      | [Healthcare]()        |
+| Week 8      | [Smartphones 1]()     |
+|             | [Smartphones 2]()     |
+| Week 9      | [Crypto Models 1]()   |
+|             | [Crypto Models 2]()   |
+| Week 10     | [Web Privacy]()       |
+|             | [Deep Fake]()         |
+| Week 11     | [Automobile]()        |
+|             | [Automobile AML]()    |
+| Week 12     | [Password Security]() |
+|             | [Side Channel Attack]() |
+| Week 13     | [Stylometry]()        |
+|             | [Cyber Warfare]()     |
+
 ---
 ## Policies
 
@@ -119,4 +106,5 @@ those who care about you.
 
 ## Statement on CS CARES and CS Values and Code of Conduct
 
-> All members of the Illinois Computer Science department - faculty, staff, and students - are expected to adhere to the [CS Values and Code of Conduct](https://siebelschool.illinois.edu/about/values). The [CS CARES Committee](https://cs.illinois.edu/about/cs-cares/) is available to serve as a resource to help people who are concerned about or experience a potential violation of the Code. If you experience such issues, please [contact the CS CARES Committee](https://cs.illinois.edu/about/cs-cares/contact). The instructors of this course are also available for issues related to this class. 
+> All members of the Illinois Computer Science department - faculty, staff, and students - are expected to adhere to the [CS Values and Code of Conduct](https://siebelschool.illinois.edu/about/values). The [CS CARES Committee](https://cs.illinois.edu/about/cs-cares/) is available to serve as a resource to help people who are concerned about or experience a potential violation of the Code. If you experience such issues, please [contact the CS CARES Committee](https://cs.illinois.edu/about/cs-cares/contact). The instructors of this course are also available for issues related to this class.  
+
