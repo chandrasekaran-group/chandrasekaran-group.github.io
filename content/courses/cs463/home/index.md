@@ -1,6 +1,6 @@
 ---
 title: "ECE 424/ CS 463: Computer Security II"
-date: 2024-08-12
+date: 2025-08-25
 ---
 
 **ECE 424/ CS 463: Computer Security II**
@@ -11,7 +11,8 @@ date: 2024-08-12
 
 | **Instructor**        | [Varun Chandrasekaran](https://chandrasekaran-group.github.io/) (varunc@illinois.edu)      |
 |-----------------------|-------------------------------------------------------------------------------------------|
-| **TAs**               | Not assigned yet                                                                          |
+| **TAs**               | [Ritvik Kumar](mailto:ritvik3@illinois.edu) (ritvik3@illinois.edu)                             |
+|                       | [Qilong Wu](mailto:qilong3@illinois.edu) (qilong3@illinois.edu)                       |
 | **Time/Location**     | **BG/ BU Section**: online and asynchronous                                               |
 |                       | **DSO Section**: online and asynchronous                                                  |
 | **Syllabus**          | [Link to Syllabus](https://www.dropbox.com/scl/fi/bdipz4hmcdiuplsn3zg6s/syllabus_424.pdf?rlkey=j9i8l1ffgtx60b2e0hpch8pt1&dl=0) |
