@@ -15,7 +15,7 @@ date: 2025-08-25
 |                       | [Qilong Wu](mailto:qilong3@illinois.edu) (qilong3@illinois.edu)                       |
 | **Time/Location**     | **BG/ BU Section**: online and asynchronous                                               |
 |                       | **DSO Section**: online and asynchronous                                                  |
-| **Syllabus**          | [Link to Syllabus](https://www.dropbox.com/scl/fi/bdipz4hmcdiuplsn3zg6s/syllabus_424.pdf?rlkey=j9i8l1ffgtx60b2e0hpch8pt1&dl=0) |
+| **Syllabus**          | [Link to Syllabus](https://www.overleaf.com/read/jyrbjjrdjwzr#63cd8c) |
 
 ---
 > ### Announcement
