@@ -45,7 +45,7 @@ sections:
     <div>
         <h3>Qilong Wu</h3>
         <strong>PhD Student (2023 - Present)</strong><br>
-        Qilong is a first-year Ph.D. student in Computer Science at UIUC, advised by Prof. Varun Chandrasekaran. Qilong earned an M.S. in Computer Science at UIUC and a B.S. from Nanjing University (Kuang Yaming Honors School). Qilong also served as a research assistant at the Berkeley AI Research (BAIR) Lab. His work focuses on trustworthy machine learning, including multitask and transfer learning, as well as security.<br>
+        Qilong is a Ph.D. student in Computer Science at UIUC, advised by Prof. Varun Chandrasekaran. Qilong earned an M.S. in Computer Science at UIUC and a B.S. from Nanjing University (Kuang Yaming Honors School). Qilong also served as a research assistant at the Berkeley AI Research (BAIR) Lab. His work focuses on trustworthy machine learning, including multitask and transfer learning, as well as security.<br>
         <a href="https://www.qilongwu.com/" target="_blank">Personal Website</a> |
         <a href="https://scholar.google.com/citations?user=ad6T5ewAAAAJ&hl=en/" target="_blank">Google Scholar</a> |
         <a href="https://github.com/Ardor-Wu" target="_blank">GitHub</a> |
