@@ -5,7 +5,7 @@ date: 2025-08-25
 
 **ECE 424/ CS 463: Computer Security II**
 
-[Home](https://chandrasekaran-group.github.io/courses/cs463/home/) | [Schedule](https://docs.google.com/spreadsheets/d/1vZjNOavlNVm4SYVojeyjdG95d6RR3UM05vfyLDijM1g/edit?gid=0#gid=0) | [Campuswire](https://campuswire.com/c/G1CB36E2B/feed) | [Office Hours](https://docs.google.com/document/d/1qPs9BzPCRoYvpPa_z3UP5YmAngo9N2YxW6oRSm7xl74/edit?usp=sharing)
+[Home](https://chandrasekaran-group.github.io/courses/cs463/home/) | [Schedule](https://docs.google.com/spreadsheets/d/1FcmuQaNyTaf_6oDOVT5d3ZxG0xzdJwhfJSwniza_dS4/edit?usp=sharing) | [Campuswire](https://campuswire.com/c/G1CB36E2B/feed) | [Office Hours](https://docs.google.com/document/d/1qPs9BzPCRoYvpPa_z3UP5YmAngo9N2YxW6oRSm7xl74/edit?usp=sharing)
 
 ---
 
