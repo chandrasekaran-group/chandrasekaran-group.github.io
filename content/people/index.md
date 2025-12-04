@@ -124,7 +124,7 @@ sections:
         <h3>Xiangwen Wang</h3>
         <strong>Master's Student (2025 - Present)</strong><br>
         Xiangwen is a Master's student in Computer Science at UIUC. She received her Bachelor's degree from the University of Science and Technology of China (USTC). Her research focuses on post-training of large language models and trustworthy machine learning, with a particular emphasis on alignment and emerging risks in advanced LLMs.<br>
-        <a href="http://www.linkedin.com/in/xiangwen-wang-448b992b8" target="_blank">LinkedIn</a> |
+        <a href="https://xwx84768.github.io/" target="_blank">Personal Website</a> |
         <a href="https://scholar.google.com/citations?view_op=list_works&user=lxWvJssAAAAJ" target="_blank">Google Scholar</a> |
         <a href="https://github.com/xwx84768" target="_blank">GitHub</a> |
         <a href="mailto:xw120@illinois.edu" target="_blank">Email</a>
