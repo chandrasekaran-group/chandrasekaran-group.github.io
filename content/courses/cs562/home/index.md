@@ -16,7 +16,7 @@ date: 2026-01-09
 
 **TA**: TBD
 
-**Time/Location**: **Mondays & Wednesdays 12:30 – 1:45 PM**, Siebel Center for Comp Sci **Room 0218**
+**Time/Location**: **Tuesdays & Thursdays 12:30 – 1:45 PM**, Siebel Center for Comp Sci **Room 0218**
 
 **Office Hour**: By Appointment
 
