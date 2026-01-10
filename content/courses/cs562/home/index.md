@@ -53,20 +53,33 @@ selected from instructor-provided topics.
 
 # Expected Work
 
-- **Reading and Summaries**: Students are expected to read the assigned papers before each class
-  meeting and submit a short written summary via the following Google Form:
+- **Reading**: Students are expected to read the assigned papers before each class
+  meeting and submit a short response to instructor-provided **guiding questions**
+  via the following Google Form:
   https://forms.gle/cpRkxyc43pCG2Nwi8. **You must be signed into Google using your Illinois
   (@illinois.edu) account in order to submit the form.**
 
-  The summary should be **at most one page long** and should be written clearly and concisely.
-  If mathematical expressions, equations, or formal notation are needed, the summary should be
-  rendered appropriately using **LaTeX**. Submissions must be uploaded as a **single PDF file**;
-  the form will only accept PDFs of **size less than 1 MB**, so students should plan formatting
-  and figures accordingly. Summaries are due at 11:59 PM CT the day before the class.
+  The response should be **at most one page long** and written clearly and concisely.
+  If mathematical expressions, equations, or formal notation are needed, the response
+  should be rendered appropriately using **LaTeX**. Submissions must be uploaded as a
+  **single PDF file**; the form will only accept PDFs of **size less than 1 MB**, so
+  students should plan formatting and figures accordingly. Responses are due at
+  **11:59 PM (CT) on the day before class**.
 
-  For each class, the instructor will post **specific guiding questions** on Campuswire; students
-  should aim to answer these questions based on their reading of the paper(s), in addition to
-  offering their own analysis and critique.
+  **Use of AI tools** (e.g., large language models) is permitted for editing,
+  polishing, or clarifying written responses, but **the content must reflect the
+  student’s own understanding of the paper**. Students are responsible for the
+  correctness and originality of all submitted material; AI tools should not be used
+  to generate responses without genuine engagement with the reading.
+  
+  - **In-Class Quizzes**: Short, handwritten quizzes will be administered at the
+  beginning of some class meetings to assess basic engagement with the assigned
+  readings. These quizzes will be based directly on the paper(s) assigned for that
+  class and are intended to take **no more than 5–10 minutes**.
+
+  Quizzes are graded **very leniently** and are designed to encourage preparation
+  and careful reading rather than memorization, or technical mastery, and to deter AI usage in the reading process.
+
   
 - **Participation and Attendance**: Students are expected to attend all classes and actively
   participate in discussion. 
@@ -144,7 +157,8 @@ selected from instructor-provided topics.
 
 - Project (proposal, progress updates, final presentation, final report): `45%`
 - Paper presentation(s): `25%`
-- Paper summaries: `25%`
+- Paper summaries: `15%`
+- In-class Quiz: `10%`
 - Attendance and participation: `5%`
 
 ---
