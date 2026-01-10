@@ -26,7 +26,7 @@ date: 2026-01-09
 >
 > **01/20/2026**: Enrolled students will be added/invited to CS 562 Campuswire before the first week of
 > the class. If you registered during/after the first week and did not get the Campuswire invitation,
-> please email the instructor (varunc@illinois.edu) for the invitation code.
+> please email the instructor (varunc@illinois.edu) for the invitation code, or better yet, click on the Campuswire tab at the top of the page.
 
 ---
 
