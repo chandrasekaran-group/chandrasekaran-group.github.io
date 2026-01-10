@@ -72,7 +72,7 @@ selected from instructor-provided topics.
   correctness and originality of all submitted material; AI tools should not be used
   to generate responses without genuine engagement with the reading.
   
-  - **In-Class Quizzes**: Short, handwritten quizzes will be administered at the
+- **In-Class Quizzes**: Short, handwritten quizzes will be administered at the
   beginning of some class meetings to assess basic engagement with the assigned
   readings. These quizzes will be based directly on the paper(s) assigned for that
   class and are intended to take **no more than 5–10 minutes**.
