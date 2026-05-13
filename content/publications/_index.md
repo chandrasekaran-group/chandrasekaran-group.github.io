@@ -1,5 +1,13 @@
 # Publications
 
+- **[Low-Compute Watermark Removal via Dual-Domain Natural Projection](https://arxiv.org/abs/2510.07538)**  
+  *Pragati Shuddhodhan Meshram, Varun Chandrasekaran*  
+  _43rd International Conference on Machine Learning (ICML), July 2026_
+
+- **[SACTOR: LLM-Driven Correct and Idiomatic C to Rust Translation with Static Analysis and FFI-Based Verification](https://arxiv.org/abs/2503.12511)**  
+  *Tianyang Zhou, Ziyi Zhang, Haowen Lin, Somesh Jha, Mihai Christodorescu, Kirill Levchenko, Varun Chandrasekaran*  
+  _64th Annual Meeting of the Association for Computational Linguistics (ACL), July 2026_
+
 - **[Attention Speaks Volumes: Localizing and Mitigating Bias in Language Models](https://arxiv.org/abs/2410.22517)**  
   *Rishabh Adiga, Besmira Nushi, Varun Chandrasekaran*  
   _63rd Annual Meeting of the Association for Computational Linguistics (ACL), July 2025_

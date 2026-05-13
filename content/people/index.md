@@ -1,6 +1,6 @@
 ---
 title: People
-date: 2025-09-25
+date: 2026-05-13
 
 type: landing
 
@@ -93,32 +93,6 @@ sections:
 </div>
 
 <div class='people'>
-    <img src="/images/tue_do.jpg" alt="Tue Do" class="img-cropped" style="min-width: 150px; object-position: 50% 30%;">
-    <div>
-        <h3>Tue Do</h3>
-        <strong>Master's Student (2024 - Present)</strong><br>
-        Tue is a Master's student in the Electrical & Computer Engineering department at UIUC. He earned two bachelor's degrees in Computer Science and Mathematics from UIUC.  He likes to think about randomized algorithms generally, with a focus on privacy-preserving algorithms. He is currently working on private data attribution and in-context learning.<br>
-        <a href="https://tuedo2.github.io" target="_blank">Personal Website</a> |
-        <a href="https://scholar.google.com/citations?hl=en&user=wmWJSxQAAAAJ" target="_blank">Google Scholar</a> |
-        <a href="https://github.com/tuedo2" target="_blank">GitHub</a> |
-        <a href="mailto:tuedo2@illinois.edu" target="_blank">Email</a>
-    </div>
-</div>
-
-<div class='people'>
-    <img src="/images/taoran_li.jpg" alt="Taoran Li" class="img-cropped">
-    <div>
-        <h3>Taoran Li</h3>
-        <strong>Master's Student (2023 - Present)</strong><br>
-        Taoran is a Master’s student in Computer Engineering at UIUC. His work focuses on trustworthy machine learning and cryptographic protocols. Currently, Taoran's research explores machine unlearning techniques for LLMs.<br>
-        <a href="https://taoranl2.github.io" target="_blank">Personal Website</a> |
-        <a href="https://scholar.google.com/citations?hl=en&user=fSnTvhgAAAAJ" target="_blank">Google Scholar</a> |
-        <a href="https://github.com/taoranl2" target="_blank">GitHub</a> |
-        <a href="mailto:taoranl2@illinois.edu" target="_blank">Email</a>
-    </div>
-</div>
-
-<div class='people'>
     <img src="/images/xiangwen_wang.jpg" alt="Xiangwen Wang" class="img-cropped">
     <div>
         <h3>Xiangwen Wang</h3>
@@ -138,3 +112,9 @@ sections:
 
 **Rishabh Adiga**, CS MS graduated in 2025, last known at DatalogyAI (2025).
 [Personal Website](https://rishabhadiga.github.io/) | [Google Scholar](https://scholar.google.com/citations?hl=en&user=D75JgJsAAAAJ)
+
+**Tue Do**, ECE MS graduated in 2025, now PhD student at UIUC.
+[Personal Website](https://tuedo2.github.io) | [Google Scholar](https://scholar.google.com/citations?hl=en&user=wmWJSxQAAAAJ) | [GitHub](https://github.com/tuedo2)
+
+**Taoran Li**, ECE MS graduated in 2025, now PhD student at Texas A&M.
+[Personal Website](https://taoranl2.github.io) | [Google Scholar](https://scholar.google.com/citations?hl=en&user=fSnTvhgAAAAJ) | [GitHub](https://github.com/taoranl2)
