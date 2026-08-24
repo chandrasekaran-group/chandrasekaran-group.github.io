@@ -1,6 +1,6 @@
 ---
 title: "ECE 424/ CS 463: Computer Security II"
-date: 2025-08-25
+date: 2026-08-24
 ---
 
 **ECE 424/ CS 463: Computer Security II**
@@ -12,15 +12,15 @@ date: 2025-08-25
 | **Instructor**        | [Varun Chandrasekaran](https://chandrasekaran-group.github.io/) (varunc@illinois.edu)      |
 |-----------------------|-------------------------------------------------------------------------------------------|
 | **TAs**               | [Ritvik Kumar](mailto:ritvik3@illinois.edu) (ritvik3@illinois.edu)                             |
-|                       | [Qilong Wu](mailto:qilong3@illinois.edu) (qilong3@illinois.edu)                       |
-| **Time/Location**     | **BG/ BU Section**: online and asynchronous                                               |
+|                       | More TAs will be assigned                      |
+| **Time/Location**     | **PG/ PU Section**: online and asynchronous                                               |
 |                       | **DSO Section**: online and asynchronous                                                  |
 | **Syllabus**          | [Link to Syllabus](https://www.overleaf.com/read/jyrbjjrdjwzr#63cd8c) |
 
 ---
 > ### Announcement
 >
-> 8/24/2025: First week of class — Enrolled students will be added/invited to ECE 424/ CS 463 Campuswire before the first week of the class. If you registered during/after the first week and did not get the Campuswire invitation, please email the instructor (varunc@illinois.edu) for the invitation code.
+> 8/25/2026: First week of class — Enrolled students will be added/invited to ECE 424/ CS 463 Campuswire before the first week of the class. If you registered during/after the first week and did not get the Campuswire invitation, please email the instructor (varunc@illinois.edu) for the invitation code.
 >
 > MPs will be released (and submitted) via Github. If you have not done so, please create a Github account. For students who have already enrolled, we will provide detailed tutorials and instructions on how to sign up with class repo and check out MPs. We use Campuswire for Q&A and discussions. You will be added to campuswire by the course staff.
 ---
