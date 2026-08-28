@@ -12,7 +12,7 @@ date: 2026-08-24
 | **Instructor**        | [Varun Chandrasekaran](https://chandrasekaran-group.github.io/) (varunc@illinois.edu) |
 |-----------------------|---------------------------------------------------------------------------------------|
 | **TAs**               | [Ritvik Kumar](mailto:ritvik3@illinois.edu) (ritvik3@illinois.edu) |
-|                       | [Dylan Greenwald](mailto:dgree21@illinois.edu) (dgree21@illinois.edu) |
+|                       | [Dylen Greenwald](mailto:dgree21@illinois.edu) (dgree21@illinois.edu) |
 | **Time/Location**     | **PG/ PU Section**: online and asynchronous |
 |                       | **DSO Section**: online and asynchronous |
 | **Syllabus**          | [Link to Syllabus](https://www.overleaf.com/read/jyrbjjrdjwzr#63cd8c) |
