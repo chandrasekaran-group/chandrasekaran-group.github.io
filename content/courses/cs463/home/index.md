@@ -28,7 +28,9 @@ date: 2026-08-24
 >
 > **If you are enrolled in the course but do not have access to Canvas, Campuswire, or Coursera, please fill out [this access form](https://docs.google.com/forms/d/e/1FAIpQLScCpcyf89i7DOakVaYxKl1s_Bmj_QNk_9zeMLmWCgZEMjq_MA/viewform?usp=publish-editor).** You may use the same form to report missing access to any of these course platforms.
 >
-> **A note on access:** The course administrative team can directly add enrolled students to **Canvas and Campuswire**, and we will use the responses to the form above to resolve those access issues. Unfortunately, we **cannot directly add students to Coursera**; Coursera access is provisioned separately by the university. We will nevertheless use the form to keep track of students who are still waiting for Coursera access and help escalate these issues as appropriate.
+> **A note on access:** The course administrative team can directly add enrolled students to **Canvas and Campuswire**, and we will use the responses to the form above to resolve those access issues. Unfortunately, we **cannot directly add students to Coursera**; Coursera access is provisioned separately by the university.
+>
+> **On-campus students who do not have access to Coursera should first read the [Grainger College instructions for Coursera-based courses](https://ws.engr.illinois.edu/sitemanager/getfile.asp?id=3552).** On-campus students should review these instructions **before registering for Coursera-based courses**, as they explain the appropriate registration and access process. If you have followed these instructions and still do not have access, please report the issue using the access form above.
 >
 > We apologize if getting access is taking some time. **The first week of class is often challenging for enrollment and platform access, and these issues affect courses across the university.** Please do not worry if an access delay prevents you from immediately keeping up with the course. We understand the situation, and **you will have an opportunity to make up for material or work affected by these access delays.**
 >
