@@ -30,7 +30,13 @@ date: 2026-08-24
 >
 > **A note on access:** The course administrative team can directly add enrolled students to **Canvas and Campuswire**, and we will use the responses to the form above to resolve those access issues. Unfortunately, we **cannot directly add students to Coursera**; Coursera access is provisioned separately by the university.
 >
-> **On-campus students who do not have access to Coursera should first read the [Grainger College instructions for Coursera-based courses](https://ws.engr.illinois.edu/sitemanager/getfile.asp?id=3552).** On-campus students should review these instructions **before registering for Coursera-based courses**, as they explain the appropriate registration and access process. If you have followed these instructions and still do not have access, please report the issue using the access form above.
+> **On-campus students who do not have access to Coursera should first read the [Grainger College instructions for Coursera-based courses](https://ws.engr.illinois.edu/sitemanager/getfile.asp?id=3552).** Please read these instructions carefully before registering for a Coursera-based course.
+>
+> In particular, **you must complete the required Coursera onboarding course before you will receive access to this course on Coursera.** If you have not yet completed the onboarding course, please do so before reporting a Coursera access problem.
+>
+> If you have **(1) followed the Grainger College instructions, (2) completed the Coursera onboarding course, and (3) still do not have access**, please fill out [the course access form](https://docs.google.com/forms/d/e/1FAIpQLScCpcyf89i7DOakVaYxKl1s_Bmj_QNk_9zeMLmWCgZEMjq_MA/viewform?usp=publish-editor). Please allow **up to one week** for the access issue to be resolved.
+>
+> If you have completed all of the steps above, **submitted the access form, and have still not received Coursera access after one week**, please email **Varun Chandrasekaran (varunc@illinois.edu)** and **Christine Martinez (cmartinz@illinois.edu)** to let us know that you are still waiting for access. Please only escalate by email after completing the onboarding and access-form steps above and allowing one week for processing.
 >
 > We apologize if getting access is taking some time. **The first week of class is often challenging for enrollment and platform access, and these issues affect courses across the university.** Please do not worry if an access delay prevents you from immediately keeping up with the course. We understand the situation, and **you will have an opportunity to make up for material or work affected by these access delays.**
 >
