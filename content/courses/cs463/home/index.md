@@ -13,6 +13,7 @@ date: 2026-08-24
 |-----------------------|---------------------------------------------------------------------------------------|
 | **TAs**               | [Ritvik Kumar](mailto:ritvik3@illinois.edu) (ritvik3@illinois.edu) |
 |                       | [Dylen Greenwald](mailto:dgree21@illinois.edu) (dgree21@illinois.edu) |
+|                       | [Eklavya Tyagi](mailto:etyagi2@illinois.edu) (etyagi2@illinois.edu) |
 | **Time/Location**     | **PG/ PU Section**: online and asynchronous |
 |                       | **DSO Section**: online and asynchronous |
 | **Syllabus**          | [Link to Syllabus](https://www.overleaf.com/read/jyrbjjrdjwzr#63cd8c) |
