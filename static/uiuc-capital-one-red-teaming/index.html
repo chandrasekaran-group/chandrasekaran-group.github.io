@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>UIUC–Capital One Red-Teaming Workshop</title>
+<style>
+  :root{
+    --illinois-blue:#13294B;
+    --illinois-orange:#FF5F05;
+    --light:#F6F7F9;
+    --mid:#E8EBF0;
+    --text:#1F2933;
+    --muted:#5D6670;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    color:var(--text);
+    background:white;
+    line-height:1.5;
+  }
+  .topbar{
+    background:var(--illinois-blue);
+    color:white;
+    padding:18px 5vw;
+    font-weight:700;
+    letter-spacing:.2px;
+  }
+  .hero{
+    padding:72px 5vw 64px;
+    background:
+      linear-gradient(110deg, rgba(19,41,75,.97), rgba(19,41,75,.84)),
+      linear-gradient(45deg, #1f3c69, #13294B);
+    color:white;
+  }
+  .hero-inner,.content{max-width:1180px;margin:auto}
+  .eyebrow{
+    text-transform:uppercase;
+    letter-spacing:2px;
+    font-weight:700;
+    font-size:.82rem;
+    color:#ffb58a;
+    margin-bottom:12px;
+  }
+  h1{font-size:clamp(2.4rem,5vw,4.8rem);line-height:1.02;margin:0 0 24px;max-width:950px}
+  .subtitle{font-size:clamp(1.15rem,2vw,1.6rem);max-width:850px;margin:0 0 28px}
+  .meta{display:flex;gap:28px;flex-wrap:wrap;font-weight:700}
+  .meta span:before{content:"•";color:var(--illinois-orange);margin-right:10px}
+  .intro{padding:68px 5vw}
+  .intro-grid{display:grid;grid-template-columns:1fr 2fr;gap:50px;align-items:start}
+  .kicker{font-size:.9rem;text-transform:uppercase;letter-spacing:1.5px;color:var(--illinois-orange);font-weight:800}
+  h2{font-size:2.25rem;line-height:1.12;color:var(--illinois-blue);margin:.35rem 0 1rem}
+  .intro p{font-size:1.12rem;margin-top:0;color:#3c4650}
+  .schedule-section{background:var(--light);padding:70px 5vw 90px}
+  .schedule-header{max-width:850px;margin-bottom:34px}
+  .schedule-header p{font-size:1.05rem;color:var(--muted)}
+  .focus{
+    margin:36px 0 14px;
+    padding:18px 22px;
+    background:var(--illinois-blue);
+    color:white;
+    border-left:7px solid var(--illinois-orange);
+    font-weight:800;
+    font-size:1.15rem;
+  }
+  .agenda{background:white;border:1px solid var(--mid)}
+  .row{
+    display:grid;
+    grid-template-columns:170px minmax(250px,1.5fr) minmax(220px,1fr);
+    border-bottom:1px solid var(--mid);
+    min-height:72px;
+  }
+  .row:last-child{border-bottom:none}
+  .row > div{padding:18px 20px}
+  .time{font-weight:800;color:var(--illinois-blue);white-space:nowrap}
+  .session strong{display:block;color:var(--illinois-blue);font-size:1.02rem}
+  .detail{color:var(--muted)}
+  .talk-title{display:block;margin-top:5px;color:#39434d}
+  .break .session strong{color:#7a3e00}
+  .break{background:#fff8f2}
+  .footer-note{padding:38px 5vw;background:var(--illinois-blue);color:white}
+  .footer-note .content{display:flex;justify-content:space-between;gap:30px;flex-wrap:wrap;align-items:center}
+  .small{font-size:.92rem;color:#dfe6ef}
+
+  .nav{
+    background:white;
+    border-bottom:1px solid var(--mid);
+    position:sticky;
+    top:0;
+    z-index:20;
+  }
+  .nav-inner{
+    max-width:1180px;
+    margin:auto;
+    padding:0 5vw;
+    display:flex;
+    gap:8px;
+    overflow-x:auto;
+  }
+  .tab-button{
+    appearance:none;
+    border:0;
+    background:transparent;
+    padding:18px 16px 15px;
+    font:inherit;
+    font-weight:800;
+    color:var(--illinois-blue);
+    cursor:pointer;
+    border-bottom:4px solid transparent;
+    white-space:nowrap;
+  }
+  .tab-button.active{border-bottom-color:var(--illinois-orange)}
+  .tab-panel{display:none}
+  .tab-panel.active{display:block}
+  .travel-section{padding:68px 5vw 88px;background:var(--light)}
+  .travel-grid{
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:22px;
+    margin-top:30px;
+  }
+  .travel-card{
+    background:white;
+    border:1px solid var(--mid);
+    padding:26px;
+  }
+  .travel-card h3{margin:0 0 10px;color:var(--illinois-blue);font-size:1.3rem}
+  .travel-card p{margin:.55rem 0;color:#46515c}
+  .travel-card ul{margin:.6rem 0 0;padding-left:20px}
+  .travel-card li{margin:.45rem 0}
+  .travel-card a{color:#0b5cab;font-weight:700}
+  .callout{
+    border-left:6px solid var(--illinois-orange);
+    background:#fff8f2;
+    padding:18px 20px;
+    margin:26px 0;
+  }
+  .quickfacts{
+    display:grid;
+    grid-template-columns:repeat(3,minmax(0,1fr));
+    gap:14px;
+    margin:24px 0 8px;
+  }
+  .fact{
+    background:var(--illinois-blue);
+    color:white;
+    padding:18px;
+  }
+  .fact strong{display:block;font-size:.83rem;text-transform:uppercase;letter-spacing:1px;color:#ffb58a;margin-bottom:5px}
+
+
+  .speaker-button{border:0;background:none;padding:0;color:var(--illinois-blue);font:inherit;font-weight:800;text-decoration:underline;text-decoration-color:var(--illinois-orange);text-underline-offset:3px;cursor:pointer}
+  .speaker-details{display:none;padding:24px 28px 30px;background:#fbfcfd;border:1px solid var(--mid);border-top:0}
+  .speaker-details.open{display:block}
+  .speaker-details h4{margin:0 0 8px;color:var(--illinois-blue);font-size:1.25rem}
+  .speaker-details h5{margin:20px 0 6px;color:var(--illinois-orange);font-size:.82rem;text-transform:uppercase;letter-spacing:1px}
+  .speaker-details p{color:#3f4a55}
+  .recording-section{padding:68px 5vw 88px;background:var(--light)}
+  .instructions{max-width:950px;margin-top:28px}
+  .instruction-step{background:white;border:1px solid var(--mid);padding:24px 28px;margin-bottom:16px}
+  .instruction-step h3{margin:0 0 12px;color:var(--illinois-blue);font-size:1.25rem}
+  .instruction-step ul{margin:0;padding-left:22px}
+  .instruction-step li{margin:.48rem 0}
+  .important-checks{background:#fff8f2;border-left:7px solid var(--illinois-orange);padding:22px 25px;margin-top:24px;font-size:1.05rem}
+
+  @media(max-width:760px){
+    .intro-grid{grid-template-columns:1fr}
+    .travel-grid,.quickfacts{grid-template-columns:1fr}
+    .row{grid-template-columns:1fr}
+    .row > div{padding:12px 16px}
+    .time{padding-bottom:0!important}
+    .detail{padding-top:0!important}
+  }
+</style>
+</head>
+<body>
+  <div class="topbar">Siebel School of Computing and Data Science · University of Illinois Urbana-Champaign</div>
+
+  <header class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">AI Safety & Security</div>
+      <h1>UIUC–Capital One Red-Teaming Workshop</h1>
+      <p class="subtitle">A collaborative workshop on new methods, multi-agent systems, and rigorous evaluation for AI red-teaming.</p>
+      <div class="meta">
+        <span>Friday, September 25, 2026</span>
+        <span>Siebel Center for Computer Science · Room 2405</span>
+        <span>Urbana, Illinois</span>
+      </div>
+    </div>
+  </header>
+
+  <nav class="nav" aria-label="Workshop navigation">
+    <div class="nav-inner">
+      <button class="tab-button active" data-tab="home">Workshop & Schedule</button>
+      <button class="tab-button" data-tab="travel">Travel & Visitor Information</button>
+      <button class="tab-button" data-tab="recording">Recording Instructions</button>
+    </div>
+  </nav>
+
+  <main id="home" class="tab-panel active">
+  <section class="intro">
+    <div class="content intro-grid">
+      <div>
+        <div class="kicker">Collaborative Workshop</div>
+        <h2>Advancing AI Red-Teaming</h2>
+      </div>
+      <div>
+        <p>
+          This workshop brings together researchers from the University of Illinois Urbana-Champaign and Capital One to explore emerging challenges in AI red-teaming.
+          The program combines short technical talks with focused small-group discussions, creating space to compare methods, identify open research questions,
+          and develop new collaborations around the safety and security of increasingly capable AI systems.
+        </p>
+        <p>
+          The day is organized around three themes: novel and diversity-driven red-teaming approaches, red-teaming of multi-agent systems, and evaluation of red-teaming and safety methods.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="schedule-section">
+    <div class="content">
+      <div class="schedule-header">
+        <div class="kicker">Workshop Schedule</div>
+        <h2>Program</h2>
+        <p>All times are Central Time. Please come to Room 2405 of the Siebel Center for Computer Science for breakfast, registration, talks, and plenary sessions. Breakout discussions will take place across Rooms 2102, 2244, 2303, and 2405; breakout room assignments will be provided during the workshop.</p>
+      </div>
+
+      <div class="agenda">
+        <div class="row">
+          <div class="time">9:15–9:30 AM</div>
+          <div class="session"><strong>Registration & Check-in</strong></div>
+          <div class="detail"></div>
+        </div>
+        <div class="row">
+          <div class="time">9:30–9:45 AM</div>
+          <div class="session"><strong>Introductory Remarks</strong></div>
+          <div class="detail">Giri Iyengar</div>
+        </div>
+      </div>
+
+      <div class="focus">Focus Area 1 · Novel and Diversity-Driven Red-Teaming Approaches</div>
+      <div class="agenda">
+        <div class="row">
+          <div class="time">9:45–10:00 AM</div>
+          <div class="session"><strong>Capital One Lightning Talk</strong><span class="talk-title">Two Approaches to Novel and Diverse Jailbreaks: Strategy-Conditioned Generation and Forged Reasoning</span></div>
+          <div class="detail"><button class="speaker-button" type="button" data-speaker="sriram-venkatapathy">Sriram Venkatapathy</button></div>
+        </div>
+        <div class="speaker-details" id="sriram-venkatapathy">
+          <h4>Two Approaches to Novel and Diverse Jailbreaks: Strategy-Conditioned Generation and Forged Reasoning</h4>
+          <h5>Abstract</h5><p>The talk will present two lines of work in AI red-teaming aimed at identifying and fixing security vulnerabilities in industry-scale systems:</p><p>1. Diverse attack generation: To bypass the memorized defenses of an LLM, automated red-teaming must dynamically vary its tactics used to generate attack strings. One effective paradigm for achieving this diversity is to first select an obfuscation strategy and then generate an attack string conditioned on that strategy. Our talk presents two approaches for accomplishing it – 1) Using a contextual multi-armed bandit (CMA) equipped with Neural Thompson Sampling followed by GFlowNet trained attacker model, and 2) End-to-end attacker model trained with GFlowNets to generate chain of strategies before generating the attack string.</p><p>2. CoT forgery Jailbreaks: We investigate CoT forgery jailbreaks and why some forged reasoning can succeed in some contexts but fail in others. We first use channel placement to compare four reasoning frames—Forensic, Moderation, Educator, and Research—when the same fabricated CoT is placed either in the model&#x27;s analysis channel or supplied through the user prompt. We then investigate whether this gap is driven by premise support—whether the interaction establishes the contextual condition that makes a reasoning frame applicable—through controlled premise-supply, minimal-edit, assertion-provenance, and trace-adoption experiments. Our experiments characterize how channel placement and premise support shape CoT forgery, how premise selection can amplify attacks, and what these behaviors reveal about the model&#x27;s internal reasoning and safety representations.</p>
+          <h5>Bio</h5><p>Sriram Venkatapathy is a Staff Applied Researcher at Capital One, leading research on AI Red-Teaming and Safety. Before this, he worked at Amazon led a multimodal post-training team that contributed to the launch of the Amazon Nova models. He also contributed to efforts on explainability and the internationalization of Alexa AI models there. Earlier in his career, he has had experience with training and domain adaptation of machine translation. He completed his Ph.D. at IIIT Hyderabad, India, through a research exchange program with the University of Pennsylvania.</p>
+        </div>
+        <div class="row">
+          <div class="time">10:00–10:15 AM</div>
+          <div class="session"><strong>UIUC Lightning Talk</strong><span class="talk-title">Novel and Diversity-Driven Red-Teaming Approaches: From Multimodal Models to Autonomous Agents</span></div>
+          <div class="detail"><button class="speaker-button" type="button" data-speaker="xun-liu">Xun Liu</button></div>
+        </div>
+        <div class="speaker-details" id="xun-liu">
+          <h4>Novel and Diversity-Driven Red-Teaming Approaches: From Multimodal Models to Autonomous Agents</h4>
+          <h5>Abstract</h5><p>As AI systems evolve from chatbots into agents that interact with tools and external environments, their expanding attack surfaces demand red-teaming methods that can uncover diverse and previously overlooked failures. This talk examines how adaptive attack orchestration and systematic exploration can make safety evaluation more comprehensive, scalable, and actionable.</p><p>This talk covers two complementary approaches. First, I will present ARMs, an adaptive red-teaming agent for vision-language models that combines novel multimodal attack strategies with a plug-and-play attack library. Through reasoning-guided orchestration and memory-based exploration, ARMs balances attack effectiveness with diversity, exposing a broader range of vulnerabilities and generating data that can improve safety alignment. Second, I will introduce the DecodingTrust-Agent Platform (DTap), the first controllable and interactive red-teaming platform for AI agents, spanning 14 domains and over 50 sandboxed environments. Its autonomous red-teaming agent, DTap-Red, explores diverse injection surfaces across prompts, tools, skills, and environments, while verifiable outcome checks support reproducible assessment of harmful agent actions.</p><p>Together, these works motivate a view of red-teaming in which attack success, diversity, and coverage jointly inform evaluation. Red-teaming asks whether an adversary can make an agent act when it should not. AgentAbstain, our evaluation framework for agentic abstention, asks the mirror-image question: do agents know when not to act, even without an adversary? Our results suggest that frontier agents often do not. I will discuss what changes when moving from eliciting unsafe model outputs to inducing consequential agent actions, and how these findings can guide the development of safer and more trustworthy AI systems.</p>
+          <h5>Bio</h5><p>Xun Liu is a second-year Ph.D. student in Computer Science at the University of Illinois Urbana-Champaign, advised by Prof. Bo Li. Xun’s research focuses on AI safety, particularly red-teaming and alignment of large language models and LLM-based agent systems. Xun is a co-first author of ARMs (ICLR 2026; Distinguished Paper at the CVPR 2026 AdvML Workshop), an adaptive red-teaming agent for multimodal models, and of the DecodingTrust-Agent Platform (DTap), the first controllable and interactive red-teaming platform for AI agents, powered by DTap-Red, the platform’s autonomous red-teaming agent. Xun also leads AgentAbstain, an evaluation framework measuring whether LLM agents know when not to act.</p>
+        </div>
+        <div class="row">
+          <div class="time">10:15–11:15 AM</div>
+          <div class="session"><strong>Small-Group Discussion</strong></div>
+          <div class="detail">Breakout groups</div>
+        </div>
+        <div class="row break">
+          <div class="time">11:15–11:30 AM</div>
+          <div class="session"><strong>Coffee Break</strong></div>
+          <div class="detail"></div>
+        </div>
+      </div>
+
+      <div class="focus">Focus Area 2 · Red-Teaming Multi-Agent Systems</div>
+      <div class="agenda">
+        <div class="row">
+          <div class="time">11:30–11:45 AM</div>
+          <div class="session"><strong>Capital One Lightning Talk</strong><span class="talk-title">Workspace Topology and Agent Privilege in Multi-Agent Red-Teaming</span></div>
+          <div class="detail"><button class="speaker-button" type="button" data-speaker="alexandre-day-thomas-paniagua">Alexandre Day &amp; Thomas Paniagua</button></div>
+        </div>
+        <div class="speaker-details" id="alexandre-day-thomas-paniagua">
+          <h4>Workspace Topology and Agent Privilege in Multi-Agent Red-Teaming</h4>
+          <h5>Abstract</h5><p>In this track, we present two studies that probe this attack surface from complementary angles: one on how the structure of ingested workspace content shapes prompt-injection success in agentic coding assistants, and the other on how attacker privilege and inter-agent handoffs determine where a fabricated claim takes hold in a production-shaped conversational pipeline.</p><p>In this study, we look at a novel attack surface we term workspace topology — defined via directory depth, codebase modularity, in-file injection position, and context framing — and its effect on the success of indirect prompt injection (IPI) attempts. We find that workspace topology measurably affects attack success: increased codebase modularity significantly lowers Attack Success Rate (ASR), while context framing and the introduction of security cues in the workspace also shift ASR.</p><p>The second study looks at red-teaming of multi-agent conversational pipelines, an area understudied relative to single-LLM systems. Such pipelines expose attack vectors that differ in how much internal access an attacker needs — ordinary user text, a tool&#x27;s free-text output field, a single agent&#x27;s own instruction context, or the message passed between two agents. Using a five-agent travel-booking pipeline, we show that attacker privilege predicts attack success — with some vectors succeeding at markedly higher rates than an identical claim carried in user text.</p>
+          <h5>Bio</h5><p>Thomas Paniagua is a Senior Lead AI Engineer at Capital One. He completed his Ph.D. in Electrical Engineering at North Carolina State University under Prof. Tianfu Wu. His background focuses on applied machine learning and system security, specifically using constrained optimization to generate adversarial perturbations and stress-test model robustness. His latest work has been published at NeurIPS and ICML. He is now part of the AI Red Team at Capital One.</p><p>Alexandre Day is a Director of Data Science within the AI Foundations team at Capital One, where he leads and operationalizes research in Safe AI and AI Red-Teaming for GenAI use-cases. His work focuses on developing scalable frameworks to detect, evaluate, and mitigate LLM and agentic vulnerabilities—spanning prompt injection, jailbreaking, unaligned tool usage, and multi-agent risk modeling in enterprise environments. Alexandre also leads Graph ML and Tabular Foundation Model initiatives within Capital One&#x27;s Graph Intelligence team. He holds a Ph.D. in quantum computational physics from Boston University, where his research centered on reinforcement learning algorithms for quantum state preparation and resource optimization.</p>
+        </div>
+        <div class="row">
+          <div class="time">11:45 AM–12:00 PM</div>
+          <div class="session"><strong>UIUC Lightning Talk</strong><span class="talk-title">Securing Multi-Agent Systems at the Communication Layer</span></div>
+          <div class="detail"><button class="speaker-button" type="button" data-speaker="luyi-xing">Luyi Xing</button></div>
+        </div>
+        <div class="speaker-details" id="luyi-xing">
+          <h4>Securing Multi-Agent Systems at the Communication Layer</h4>
+          <h5>Abstract</h5><p>AI agents are rapidly evolving from standalone assistants into interconnected systems that communicate with users, tools, services, models, and other agents. This shift creates a new security frontier: multi-agent systems inherit threats from AI models, such as prompt injection, jailbreaking, semantic manipulation, and privacy leakage, while also exposing system-level risks such as authorization failures, confused-deputy attacks, unsafe delegation, session hijacking, memory poisoning, and cost-amplification misuse.</p><p>This talk argues that securing multi-agent systems requires looking beyond individual models, agent frameworks, or application-specific defenses. While these defenses are important, they are fragmented across model providers, agent harnesses, development frameworks, and application developers. In contrast, agent communication protocols provide a unified layer where interactions among agents, users, tools, and services can be observed, tested, constrained, and protected consistently.</p><p>I will introduce the Natural Language Interaction Protocol (NLIP), an Ecma-standardized application-layer protocol for human-to-agent and agent-to-agent communication, and use it as a concrete example of how standardized agent communication can support scalable security. Building on our NSF Safe-OSE project, I will present a security architecture that places enforcement at well-defined communication-layer control points, enabling validation, authorization, provenance tracking, policy enforcement, monitoring, red-teaming, and defense across heterogeneous multi-agent ecosystems. The talk will conclude with a broader vision for building secure open-source ecosystems around agent interoperability standards.</p>
+          <h5>Bio</h5><p>Luyi Xing is an Associate Professor of Computer Science at the University of Illinois Urbana-Champaign, where he leads the System Security Foundations (SSF) Lab. His research focuses on the security and formal assurance of complex software systems, with recent work advancing the foundations of agentic AI. He studies how to build secure, interoperable, and trustworthy AI agent ecosystems, spanning agent architectures, tool-use safety, and cross-agent communication, and is a key contributor to the Natural Language Interaction Protocol (NLIP) at Ecma International—an open, vendor-neutral standard for agent-to-agent communication with growing adoption across industry, academia, and open-source communities. His prior work spans a wide range of systems—including mobile, IoT, cloud and distributed systems, and the Web—covering layers from applications and OS kernels to cloud infrastructures and networking protocols, where he has uncovered critical logic and design flaws in widely deployed platforms, leading to real-world patches and influence on industry practices.</p>
+        </div>
+        <div class="row">
+          <div class="time">12:00–1:30 PM</div>
+          <div class="session"><strong>Lunch & Small-Group Discussion</strong></div>
+          <div class="detail">Working lunch</div>
+        </div>
+      </div>
+
+      <div class="focus">Focus Area 3 · Evaluation of Red-Teaming and Safety</div>
+      <div class="agenda">
+        <div class="row">
+          <div class="time">1:30–1:45 PM</div>
+          <div class="session"><strong>Capital One Lightning Talk</strong><span class="talk-title">Beyond the Verdict: Measuring the Effect of Semantic Factorization of Safety Judgment</span></div>
+          <div class="detail"><button class="speaker-button" type="button" data-speaker="rikhiya-ghosh">Rikhiya Ghosh</button></div>
+        </div>
+        <div class="speaker-details" id="rikhiya-ghosh">
+          <h4>Beyond the Verdict: Measuring the Effect of Semantic Factorization of Safety Judgment</h4>
+          <h5>Abstract</h5><p>Current LLM-as-a-judge systems often output a single safety verdict, which obscures separate decisions regarding policy applicability, violations, severity, and behavior. We study whether decomposing policy-conditioned safety evaluation into interpretable factors changes both effectiveness of red-teaming approach and vulnerability under optimization. We introduce a MoE judge that predicts intermediate dimensions conditioned on policy and uses the expert verdicts to produce the final violation and policy severity. We study the effect of explicit modeling and inferencing of these decisions on judge model behavior. Across both inference-time prompting and task-specific training, we compare holistic, sharded, ensembled, joint multi-axis, and independent axis-specific judges under standard and held out policy evaluation, and characterize the error structure of the intermediate dimensions. We also study attacker-judge goodharting where we study the behavior of adaptive attackers against different kinds of judges and test the exploitability, error dependence structure and robustness of axis aggregation. We study different methods of aggregation for multi-turn red-teaming, and finally characterize the properties of decomposed judges that determine their robustness under adaptive optimization.</p>
+          <h5>Bio</h5><p>Rikhiya Ghosh is a senior manager at Capital One where she works on conversational AI, safety and multimodal AI solutions. Her research portfolio spans LLM safety and evaluation, automated red-teaming, guardrails, with prior work in foundation model research and clinical machine learning. Her work focuses on translating advances in AI research into real-world deployed applications.</p>
+        </div>
+        <div class="row">
+          <div class="time">1:45–2:00 PM</div>
+          <div class="session"><strong>UIUC Lightning Talk</strong><span class="talk-title">Red-Teaming the Reasoning Trace: Deception, Concealment, and Monitorability</span></div>
+          <div class="detail"><button class="speaker-button" type="button" data-speaker="huan-zhang">Huan Zhang</button></div>
+        </div>
+        <div class="speaker-details" id="huan-zhang">
+          <h4>Red-Teaming the Reasoning Trace: Deception, Concealment, and Monitorability</h4>
+          <h5>Abstract</h5><p>As reasoning models grow larger and more capable, their chains of thought may become harder to interpret, raising the possibility that models could acquire the capability to deceive without leaving recognizable evidence in their reasoning traces. Can a reasoning model produce convincing but deliberately corrupted solutions without leaving obvious evidence in its chain of thought? Can it follow an instruction while omitting the information a monitor needs to recognize that behavior? This talk investigates these questions through two approaches to red-teaming reasoning traces. DecepChain uses supervised fine-tuning and reinforcement learning to induce trigger-dependent errors that blend into benign-looking reasoning, challenging human and automated detection while preserving ordinary task performance. MonitorBench evaluates a complementary failure mode: decision-critical factors that influence behavior but are absent from the visible reasoning trace. Across diverse tasks, it tests both baseline monitorability and susceptibility to concealment and monitor-aware prompting. Together, these studies probe how oversight can fail through plausible errors or missing evidence. I will discuss the threat models these evaluations capture, the limits of their conclusions, and how to build stronger stress tests for chain-of-thought monitoring.</p>
+          <h5>Bio</h5><p>Huan Zhang is an assistant professor in Electrical and Computer Engineering at the University of Illinois Urbana-Champaign. His research aims to build safe and trustworthy AI systems, including red-teaming, adversarial robustness, and the safety and security of large language models and AI agents. His recent work investigates stealthy deception in LLM reasoning, chain-of-thought monitorability, jailbreaks, backdoor attacks, and the reliability of model evaluations. He also leads the development of α,β-CROWN, a neural network verification toolbox that won VNN-COMP annually from 2021 through 2026. Huan received his PhD in Computer Science from UCLA in 2020 and was a postdoctoral researcher at Carnegie Mellon University from 2021 to 2023. He is a recipient of the Schmidt Sciences AI2050 Early Career Fellowship and the NSF CAREER Award.</p>
+        </div>
+        <div class="row">
+          <div class="time">2:00–3:00 PM</div>
+          <div class="session"><strong>Small-Group Discussion</strong></div>
+          <div class="detail">Breakout groups</div>
+        </div>
+        <div class="row break">
+          <div class="time">3:00–3:15 PM</div>
+          <div class="session"><strong>Coffee Break</strong></div>
+          <div class="detail"></div>
+        </div>
+        <div class="row">
+          <div class="time">3:15–3:30 PM</div>
+          <div class="session"><strong>Working-Group Summary Presentations</strong></div>
+          <div class="detail">Key findings and takeaways</div>
+        </div>
+        <div class="row">
+          <div class="time">3:30–3:45 PM</div>
+          <div class="session"><strong>Closing Remarks & Next Steps</strong></div>
+          <div class="detail">Collaboration opportunities and workshop takeaways</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  </main>
+
+  <main id="travel" class="tab-panel">
+    <section class="travel-section">
+      <div class="content">
+        <div class="kicker">Plan Your Visit</div>
+        <h2>Travel & Visitor Information</h2>
+        <p style="max-width:850px;font-size:1.08rem;color:#5D6670">
+          The workshop home base is Room 2405 of the Thomas M. Siebel Center for Computer Science on the north side of the University of Illinois Urbana-Champaign campus.
+          The information below covers the most common arrival options for out-of-town participants.
+        </p>
+
+        <div class="quickfacts">
+          <div class="fact"><strong>Workshop Venue</strong>Room 2405, Siebel Center for Computer Science</div>
+          <div class="fact"><strong>Building Address</strong>201 N. Goodwin Avenue, Urbana, IL 61801</div>
+          <div class="fact"><strong>Local Airport</strong>Willard Airport (CMI), about 5 miles from campus</div>
+        </div>
+
+        <div class="callout">
+          <strong>Recommended for most visitors:</strong> If a convenient flight to Champaign (CMI) is available, fly directly to CMI and take a taxi or rideshare to campus.
+          If flying through Chicago O'Hare (ORD), Peoria Charter is a straightforward ground-transportation option to Champaign-Urbana. Reserve long-distance ground transportation in advance.
+        </div>
+
+        <div class="travel-grid">
+          <div class="travel-card">
+            <h3>From Willard Airport (CMI)</h3>
+            <p>Willard Airport is approximately five miles south of campus. Taxi and rideshare service are the simplest options for reaching the Siebel Center or your hotel.</p>
+            <p>For navigation, use <strong>Thomas M. Siebel Center for Computer Science, 201 N. Goodwin Ave., Urbana, IL 61801</strong>.</p>
+            <p><a href="https://www.iflycu.com/" target="_blank" rel="noopener">Willard Airport information →</a></p>
+          </div>
+
+          <div class="travel-card">
+            <h3>From Chicago O'Hare (ORD)</h3>
+            <p>From O'Hare, participants can take <strong>Peoria Charter</strong> toward Champaign-Urbana. The Siebel School also lists rental car and Chicago-to-Champaign Amtrak connections as alternatives.</p>
+            <p>Many bus/train services arrive at the <strong>Illinois Terminal</strong> in downtown Champaign. From there, take a taxi/rideshare or a local MTD bus to campus.</p>
+            <p><a href="https://siebelschool.illinois.edu/tripplanner" target="_blank" rel="noopener">Siebel School travel instructions →</a></p>
+          </div>
+
+          <div class="travel-card">
+            <h3>Arriving by Train or Intercity Bus</h3>
+            <p>Amtrak serves Champaign from Chicago and other cities. Trains and many intercity buses arrive at <strong>Illinois Terminal</strong>.</p>
+            <p>From Illinois Terminal, rideshare/taxi is simplest. MTD buses also connect the terminal to stops within roughly a five-minute walk of the Siebel Center.</p>
+            <p><a href="https://www.amtrak.com/" target="_blank" rel="noopener">Amtrak →</a> &nbsp; · &nbsp; <a href="https://mtd.org/" target="_blank" rel="noopener">Champaign-Urbana MTD →</a></p>
+          </div>
+
+          <div class="travel-card">
+            <h3>Driving & Parking</h3>
+            <p>Interstates 57, 72, and 74 provide access to Champaign-Urbana. For the Siebel Center, the university recommends approaching via the Lincoln Avenue exit from I-74.</p>
+            <p>Weekday campus parking is not generally free. Metered street parking is available around Siebel, and the university lists the <strong>North Campus Parking Deck (B4), 1201 W. University Ave.</strong>, about one block north of the building.</p>
+            <p><a href="https://parking.illinois.edu/visitors" target="_blank" rel="noopener">Visitor parking information →</a></p>
+          </div>
+
+          <div class="travel-card">
+            <h3>Nearby Hotels</h3>
+            <p>Convenient options listed by the Siebel School include:</p>
+            <ul>
+              <li><strong>Illini Union Hotel</strong> — on campus, 1401 W. Green St.</li>
+              <li><strong>TownePlace Suites Campustown</strong> — 603 S. 6th St.</li>
+              <li><strong>Hampton Inn Champaign/Urbana</strong> — 1200 W. University Ave., very close to the north side of campus.</li>
+              <li><strong>Hotel Royer</strong> — 210 S. Race St., downtown Urbana.</li>
+              <li><strong>I Hotel</strong> — 1900 S. 1st St.; farther south, with convenient campus/airport transportation options.</li>
+            </ul>
+            <p><a href="https://siebelschool.illinois.edu/tripplanner" target="_blank" rel="noopener">See Siebel School visitor recommendations →</a></p>
+          </div>
+
+          <div class="travel-card">
+            <h3>Getting Around Campus</h3>
+            <p>The workshop building is on the Engineering campus. The Siebel Center is a short walk from Green Street and the engineering quad.</p>
+            <p>Local MTD buses serve campus and downtown Champaign-Urbana. Rideshare services are also widely used for trips between hotels, the airport, Illinois Terminal, and campus.</p>
+            <p><a href="https://map.illinois.edu/" target="_blank" rel="noopener">Campus map →</a></p>
+          </div>
+
+          <div class="travel-card">
+            <h3>What to Know Before You Arrive</h3>
+            <ul>
+              <li><strong>Time zone:</strong> Central Time.</li>
+              <li><strong>Check-in:</strong> Workshop registration begins at 9:15 AM.</li>
+              <li><strong>Wi-Fi:</strong> University visitors can use campus guest wireless; eduroam is available to visitors whose home institution participates.</li>
+              <li><strong>Accessibility:</strong> If you need an accommodation for the workshop, please contact the organizers in advance.</li>
+            </ul>
+          </div>
+
+          <div class="travel-card">
+            <h3>Questions or Concerns?</h3>
+            <p>Please reach out to either of the workshop organizers:</p>
+            <p><strong>Gang Wang</strong><br><a href="mailto:gangw@illinois.edu">gangw@illinois.edu</a></p>
+            <p><strong>Varun Chandrasekaran</strong><br><a href="mailto:varunc@illinois.edu">varunc@illinois.edu</a></p>
+            <p>Feel free to contact us with questions about the program, travel, accessibility, or other workshop logistics.</p>
+          </div>
+
+          <div class="travel-card">
+            <h3>Useful Addresses</h3>
+            <p><strong>Siebel Center for Computer Science</strong><br>201 N. Goodwin Ave.<br>Urbana, IL 61801</p>
+            <p><strong>Illinois Terminal</strong><br>45 E. University Ave.<br>Champaign, IL 61820</p>
+            <p><strong>North Campus Parking Deck B4</strong><br>1201 W. University Ave.<br>Urbana, IL 61801</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <main id="recording" class="tab-panel">
+    <section class="recording-section">
+      <div class="content">
+        <div class="kicker">For Workshop Recorders</div>
+        <h2>Recording an In-Person Conversation with Zoom + Meeting Owl</h2>
+        <p style="max-width:900px;font-size:1.08rem;color:#5D6670">Follow these steps for each conversation. If the Meeting Owl does not work, switch to the laptop microphone and continue with the same recording and transcription procedure.</p>
+        <div class="instructions">
+<div class="instruction-step"><h3>1. Connect the Meeting Owl</h3><ul><li>Plug the Owl into power and connect it to the laptop via USB.</li><li>Open Zoom.</li><li>In <strong>Zoom → Settings → Audio</strong>, select <strong>Meeting Owl</strong> as the Microphone and Speaker.</li><li>In <strong>Settings → Video</strong>, select <strong>Meeting Owl</strong> as the camera.</li><li>Speak and confirm that the microphone level moves.</li></ul></div><div class="instruction-step"><h3>2. If the Owl Does Not Work</h3><ul><li>Do not spend more than a few minutes troubleshooting it.</li><li>Disconnect the Owl if necessary.</li><li>In <strong>Zoom → Settings → Audio → Microphone</strong>, select the laptop's <strong>Built-in Microphone</strong> (on a Mac this will usually appear as <strong>MacBook Microphone</strong>).</li><li>Speak and confirm that the microphone level moves.</li><li>Place the laptop near the center of the group, with the screen open and the microphone unobstructed.</li><li>Everything else below stays exactly the same. The recording and transcript will simply use audio captured by the laptop microphone.</li></ul></div><div class="instruction-step"><h3>3. Start a Zoom Meeting</h3><ul><li>Start a new Zoom meeting from the laptop.</li><li>Participants in the room do not need to join Zoom individually.</li><li>Make sure everyone knows the conversation is being recorded/transcribed.</li></ul></div><div class="instruction-step"><h3>4. Start the Local Recording</h3><ul><li>Click <strong>Record → Record on this Computer</strong>.</li><li>Confirm that the red <strong>Recording</strong> indicator appears. Zoom's computer recording saves the meeting's audio/video locally.</li></ul></div><div class="instruction-step"><h3>5. Start the Transcript</h3><ul><li>Click <strong>More → Transcript</strong>.</li><li>Confirm that the Transcript panel appears.</li><li>Have someone say a sentence and make sure words actually appear in the transcript before beginning the conversation.</li></ul></div><div class="instruction-step"><h3>6. At the End, SAVE THE TRANSCRIPT</h3><ul><li>Open <strong>More → Transcript</strong> if necessary.</li><li>At the bottom of the Transcript panel, click <strong>Save transcript</strong>.</li><li><strong>Do this before ending the meeting.</strong></li><li>Zoom saves the transcript as a <strong>.TXT</strong> file on the computer.</li></ul></div><div class="instruction-step"><h3>7. End the Meeting</h3><ul><li>Click <strong>End → End Meeting for All</strong>.</li><li>Wait for Zoom to finish processing/converting the recording.</li><li>Do not close the laptop while it is processing.</li></ul></div><div class="instruction-step"><h3>8. Verify the Files Before Leaving</h3><ul><li>Open the Zoom recording folder.</li><li>On Mac, this is normally <strong>Documents → Zoom</strong>.</li><li>Confirm that you have the recording (<strong>.mp4/audio files</strong>) and the saved transcript (<strong>.txt</strong>).</li></ul></div>
+          <div class="important-checks"><strong>Most important checks:</strong> Before starting the actual conversation, verify <strong>(1)</strong> the microphone meter moves, <strong>(2)</strong> Recording is on, and <strong>(3)</strong> words are appearing in the Transcript panel. If the Owl fails, switch to the laptop microphone and proceed.</div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-note">
+    <div class="content">
+      <div><strong>UIUC–Capital One Red-Teaming Workshop</strong><br><span class="small">Siebel Center for Computer Science · University of Illinois Urbana-Champaign</span></div>
+      <div class="small">Friday, September 25, 2026<br>Questions: <a href="mailto:gangw@illinois.edu" style="color:white">gangw@illinois.edu</a> · <a href="mailto:varunc@illinois.edu" style="color:white">varunc@illinois.edu</a></div>
+    </div>
+  </footer>
+
+<script>
+  const buttons = document.querySelectorAll('.tab-button');
+  const panels = document.querySelectorAll('.tab-panel');
+  buttons.forEach(button => {
+    button.addEventListener('click', () => {
+      buttons.forEach(b => b.classList.remove('active'));
+      panels.forEach(p => p.classList.remove('active'));
+      button.classList.add('active');
+      document.getElementById(button.dataset.tab).classList.add('active');
+      window.scrollTo({top: document.querySelector('.nav').offsetTop, behavior: 'smooth'});
+    });
+  });
+
+  document.querySelectorAll('.speaker-button').forEach(button => {
+    button.addEventListener('click', () => {
+      const panel = document.getElementById(button.dataset.speaker);
+      if (panel) panel.classList.toggle('open');
+    });
+  });
+
+</script>
+
+</body>
+</html>
