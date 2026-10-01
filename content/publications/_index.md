@@ -1,5 +1,41 @@
 # Publications
 
+- **[Efficiently Attacking Memorization Scores](https://arxiv.org/abs/2509.20463)**  
+  *Tue Do, Varun Chandrasekaran, Daniel Alabi*  
+  _Transactions on Machine Learning Research (TMLR)_
+
+- **The Copyright Landscape in the Age of Generative AI: Remedies From a Legal & Engineering Perspective**  
+  *Jerusha Burnett, Yi Evie Zhang, Varun Chandrasekaran, Sara Benson*  
+  _60th Hawaii International Conference on System Sciences (HICSS), January 2027_
+
+- **[AgentAbstain: Do LLM Agents Know When Not to Act?](https://arxiv.org/abs/2607.10059)**  
+  *Xun Liu, Yi Evie Zhang, Vira Kasprova, Parisa Rabbani, Pardis Sadat Zahraei, Tianyu Zhang, Ali Ebrahimpour-Boroojeny, Varun Chandrasekaran*  
+  _40th Conference on Neural Information Processing Systems (NeurIPS), Datasets & Benchmarks Track, December 2026_
+
+- **[You Can't Have It Both Ways: Concept Entanglement Limits Diffusion Model Unlearning](https://arxiv.org/abs/2609.34137)**  
+  *Yian Wang, Ali Ebrahimpour-Boroojeny, Hari Sundaram, Varun Chandrasekaran*  
+  _40th Conference on Neural Information Processing Systems (NeurIPS), December 2026_
+
+- **[Systematic Scaling Analysis of Jailbreak Attacks in Large Language Models](https://arxiv.org/abs/2603.11149)**  
+  *Xiangwen Wang, Ananth Balashankar, Varun Chandrasekaran*  
+  _40th Conference on Neural Information Processing Systems (NeurIPS), December 2026_
+
+- **[Verifiers in the Loop: Decoding Time Verification for Code Translation](https://arxiv.org/abs/2605.17626)**  
+  *Tianyang Zhou, Somesh Jha, Mihai Christodorescu, Kirill Levchenko, Varun Chandrasekaran*  
+  _40th Conference on Neural Information Processing Systems (NeurIPS), December 2026_
+
+- **[Validity-Aware Jailbreak Evaluation for Large Language Models](https://arxiv.org/abs/2609.00498)**  
+  *Qilong Wu, Sahil Wadhwa, Pranab Mohanty, Giri Iyengar, Varun Chandrasekaran*  
+  _2026 Conference on Empirical Methods in Natural Language Processing (EMNLP), October 2026_
+
+- **[Do AI Reviewers Converge? Diversity Collapse in Model-Generated Peer Review](https://openreview.net/forum?id=NdDKcU9HlU)**  
+  *Xuzhe Hou, Shengxin Zhang, Riley Stacy, Emily Black, Varun Chandrasekaran*  
+  _2026 Conference on Empirical Methods in Natural Language Processing (EMNLP), October 2026_
+
+- **[Understanding How University Guidelines Address Privacy and Security Issues of Generative AI in Academic Settings](https://arxiv.org/abs/2506.20463)**  
+  *Bei Yi Ng, Jiarui Li, Xinyuan Tong, Kevin Ye, Gauthami Yenne, Varun Chandrasekaran, Jingjie Li*  
+  _26th Privacy Enhancing Technologies Symposium (PETS), July 2026_
+
 - **[Low-Compute Watermark Removal via Dual-Domain Natural Projection](https://arxiv.org/abs/2510.07538)**  
   *Pragati Shuddhodhan Meshram, Varun Chandrasekaran*  
   _43rd International Conference on Machine Learning (ICML), July 2026_
@@ -7,6 +43,14 @@
 - **[SACTOR: LLM-Driven Correct and Idiomatic C to Rust Translation with Static Analysis and FFI-Based Verification](https://arxiv.org/abs/2503.12511)**  
   *Tianyang Zhou, Ziyi Zhang, Haowen Lin, Somesh Jha, Mihai Christodorescu, Kirill Levchenko, Varun Chandrasekaran*  
   _64th Annual Meeting of the Association for Computational Linguistics (ACL), July 2026_
+
+- **[The Privacy Quagmire: Bridging Computer Science and Legal Nuance](https://dl.acm.org/doi/10.1145/3772356.3772422)**  
+  *Yunwei Zhao, Varun Chandrasekaran, Thomas Wies, Lakshmi Subramanian*  
+  _24th ACM Workshop on Hot Topics in Networks (HotNets), November 2025_
+
+- **[MM-GEN: Principled and Generalizable Data Curation for Enhancing Task Performance in VLMs](https://openreview.net/forum?id=r9xVVuhxKI)**  
+  *Siddharth Joshi, Besmira Nushi, Vidhisha Balachandran, Varun Chandrasekaran, Vibhav Vineet, Neel Joshi, Baharan Mirzasoleiman*  
+  _Journal of Data-centric Machine Learning Research (DMLR)_
 
 - **[Attention Speaks Volumes: Localizing and Mitigating Bias in Language Models](https://arxiv.org/abs/2410.22517)**  
   *Rishabh Adiga, Besmira Nushi, Varun Chandrasekaran*  

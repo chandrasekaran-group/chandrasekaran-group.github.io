@@ -1,6 +1,6 @@
 ---
 title: People
-date: 2026-05-13
+date: 2026-10-01
 
 type: landing
 
@@ -68,6 +68,19 @@ sections:
 </div>
 
 <div class='people'>
+    <img src="/images/yian_wang.jpg" alt="Yian Wang" class="img-cropped" style="min-width: 150px; object-position: 50% 30%;">
+    <div>
+        <h3>Yian Wang</h3>
+        <strong>PhD Student (2023 - Present)</strong><br>
+        Yian Wang is a PhD student in Computer Science at UIUC. Her research focuses on trustworthy AI, including machine unlearning, foundation model safety, and privacy and safety in multi-agent AI systems. Her work explores how to make AI models and agent systems more reliable, controllable, and trustworthy.<br>
+        <a href="https://jazzssmine.github.io/" target="_blank">Personal Website</a> |
+        <a href="https://scholar.google.com/citations?hl=en&user=B7SkrRgAAAAJ" target="_blank">Google Scholar</a> |
+        <a href="https://github.com/Jazzssmine" target="_blank">GitHub</a> |
+        <a href="mailto:yian3@illinois.edu" target="_blank">Email</a>
+    </div>
+</div>
+
+<div class='people'>
     <img src="/images/pragati.jpg" alt="Pragati Meshram" class="img-cropped" style="min-width: 150px; object-position: 50% 30%;">
     <div>
         <h3>Pragati Meshram</h3>
@@ -93,6 +106,30 @@ sections:
 </div>
 
 <div class='people'>
+    <img src="/images/evie_zhang.jpg" alt="Yi (Evie) Zhang" class="img-cropped" style="min-width: 150px; object-position: 50% 30%;">
+    <div>
+        <h3>Yi (Evie) Zhang</h3>
+        <strong>PhD Student (2025 - Present)</strong><br>
+        Yi (Evie) Zhang is a Ph.D. student in Computer Science at UIUC and an Amazon AI PhD Fellow. Her research focuses on Human-Centered AI and AI Safety. She is interested in the broader social impacts of AI, as well as exploring the technical solutions and policies needed to address them. She earned her B.A. from Renmin University of China and her M.S. from UC Irvine.<br>
+        <a href="https://yieviezhang.github.io/" target="_blank">Personal Website</a> |
+        <a href="https://scholar.google.com/citations?hl=en&user=g3Ubnb4AAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a> |
+        <a href="mailto:yiz28@illinois.edu" target="_blank">Email</a>
+    </div>
+</div>
+
+<div class='people'>
+    <img src="/images/vira_kasprova.jpg" alt="Vira Kasprova" class="img-cropped" style="min-width: 150px; object-position: 50% 30%;">
+    <div>
+        <h3>Vira Kasprova</h3>
+        <strong>PhD Student (2025 - Present)</strong><br>
+        Vira is a Ph.D. student in Computer Science at UIUC. She received her Bachelor's degree in Computer Science from UIUC in 2025. Her research spans AI safety, LLM agents, and trustworthy machine learning. She is particularly interested in AI oversight, alignment, and sycophancy in multi-agent systems.<br>
+        <a href="https://virakasprova.github.io/" target="_blank">Personal Website</a> |
+        <a href="https://scholar.google.com/citations?user=2krPsHoAAAAJ&hl=en" target="_blank">Google Scholar</a> |
+        <a href="mailto:vkaspr2@illinois.edu" target="_blank">Email</a>
+    </div>
+</div>
+
+<div class='people'>
     <img src="/images/xiangwen_wang.jpg" alt="Xiangwen Wang" class="img-cropped">
     <div>
         <h3>Xiangwen Wang</h3>
@@ -102,6 +139,18 @@ sections:
         <a href="https://scholar.google.com/citations?view_op=list_works&user=lxWvJssAAAAJ" target="_blank">Google Scholar</a> |
         <a href="https://github.com/xwx84768" target="_blank">GitHub</a> |
         <a href="mailto:xw120@illinois.edu" target="_blank">Email</a>
+    </div>
+</div>
+
+<div class='people'>
+    <img src="/images/jack_zhang.jpg" alt="Shengxin (Jack) Zhang" class="img-cropped" style="min-width: 150px; object-position: 50% 30%;">
+    <div>
+        <h3>Shengxin (Jack) Zhang</h3>
+        <strong>Master's Student (2026 - Present)</strong><br>
+        Jack is a Master's student in Electrical and Computer Engineering at UIUC. His research explores diversity in AI-generated peer review, fairness under distribution shift, and robust representations. He combines statistical thinking with hands-on engineering to understand how intelligent systems behave and how to improve them.<br>
+        <a href="https://jackshengxinz.github.io/Jack-Zhang-s-Personal-Website/" target="_blank">Personal Website</a> |
+        <a href="https://scholar.google.com/citations?user=O_gvvpwAAAAJ&hl=en" target="_blank">Google Scholar</a> |
+        <a href="mailto:sz68@illinois.edu" target="_blank">Email</a>
     </div>
 </div>
   

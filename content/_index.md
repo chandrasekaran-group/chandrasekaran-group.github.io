@@ -65,10 +65,20 @@ My research interests lie at the intersection of **Security & Privacy** and fiel
 
 ## News
 
-- **[07/01/2025]**: We have been awarded a [Google Research Scholar](https://research.google/programs-and-events/research-scholar-program/recipients/) award for our work on security and privacy! Congratulations to the group!
-- **[05/15/2025]**: Our paper [Attention Speaks Volumes: Localizing and Mitigating Bias in Language Models](https://arxiv.org/abs/2410.22517) has been accepted by ACL 2025! Congratulations to all the authors!
-- **[05/10/2025]**: Our paper [Not All Wrong is Bad: Using Adversarial Examples for Unlearning](https://arxiv.org/abs/2503.00917) has been accepted by ICML 2025! Congratulations to all the authors!
-- **[01/22/2025]**: Our paper [Unearthing Skill-Level Insights for Understanding Trade-Offs of Foundation Models](https://arxiv.org/abs/2410.13826) has been accepted by ICLR 2025! Congratulations to all the authors!
-- **[01/22/2025]**: Our paper [LOTOS: Layer-wise Orthogonalization for Training Robust Ensembles](https://arxiv.org/abs/2410.05136) has been accepted by ICLR 2025! Congratulations to all the authors!
-- **[01/22/2025]**: Our paper [Generative Monoculture in Large Language Models](https://arxiv.org/abs/2407.02209) has been accepted by ICLR 2025! Congratulations to all the authors!
-- **[01/19/2025]**: Our lab website is live!
+- **[09/2026]**: Our paper [Efficiently Attacking Memorization Scores](https://arxiv.org/abs/2509.20463) has been accepted by TMLR! Congratulations to all the authors!
+- **[09/2026]**: Four papers have been accepted by NeurIPS 2026! Congratulations to all the authors!
+  - [AgentAbstain: Do LLM Agents Know When Not to Act?](https://arxiv.org/abs/2607.10059) (Datasets & Benchmarks Track, Oral)
+  - [You Can't Have It Both Ways: Concept Entanglement Limits Diffusion Model Unlearning](https://arxiv.org/abs/2609.34137)
+  - [Systematic Scaling Analysis of Jailbreak Attacks in Large Language Models](https://arxiv.org/abs/2603.11149)
+  - [Verifiers in the Loop: Decoding Time Verification for Code Translation](https://arxiv.org/abs/2605.17626)
+- **[08/2026]**: Welcome PhD students Yian Wang, Yi (Evie) Zhang, and Vira Kasprova, and MS student Shengxin (Jack) Zhang to the group!
+- **[08/2026]**: Two papers have been accepted by EMNLP 2026! Congratulations to all the authors!
+  - [Validity-Aware Jailbreak Evaluation for Large Language Models](https://arxiv.org/abs/2609.00498)
+  - [Do AI Reviewers Converge? Diversity Collapse in Model-Generated Peer Review](https://openreview.net/forum?id=NdDKcU9HlU) (Findings)
+- **[04/2026]**: Our paper [Low-Compute Watermark Removal via Dual-Domain Natural Projection](https://arxiv.org/abs/2510.07538) has been accepted by ICML 2026! Congratulations to all the authors!
+- **[04/2026]**: Our paper [SACTOR: LLM-Driven Correct and Idiomatic C to Rust Translation with Static Analysis and FFI-Based Verification](https://arxiv.org/abs/2503.12511) has been accepted by ACL 2026! Congratulations to all the authors!
+- **[10/2025]**: Our project *Formally-Verified Compositional Lifting of C to Rust* has been funded by DARPA!
+- **[10/2025]**: Our project *Toward More Pragmatic LLM Jailbreaking* has been funded by Open Philanthropy and the [Capital One Illinois Center for Generative AI Safety, Knowledge Systems, and Cybersecurity (ASKS)](https://asks.grainger.illinois.edu/)!
+- **[08/2025]**: Welcome PhD students Pragati Meshram and Yiwei Fu, and MS student Xiangwen Wang to the group!
+- **[07/2025]**: We have been awarded a [Google ML and Systems Junior Faculty Award](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/ml-systems-junior-faculty-awards/)! Congratulations to the group!
+- **[01/2025]**: Our lab website is live!
