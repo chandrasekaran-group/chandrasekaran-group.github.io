@@ -27,20 +27,6 @@ sections:
 
 # Current Students
 
-<div class='people'>
-    <img src="/images/ali.jpg" alt="Ali Ebrahimpour Boroojeny" class="img-cropped" style="min-width: 150px; object-position: 50% 30%;">
-    <div>
-        <h3>Ali Ebrahimpour Boroojeny</h3>
-        <strong>PhD Student (2021 - Present)</strong><br>
-        Ali is a Ph.D. student in Computer Science at UIUC. His research focuses on Security and Privacy in Machine Learning. He is also interested in applications of Machine Learning in Bioinformatics. He is working with Professor Hari Sundaram and Professor Varun Chandrasekaran.<br>
-        <a href="https://ali-e.github.io/" target="_blank">Personal Website</a> |
-        <a href="https://scholar.google.com/citations?user=98J7AAkAAAAJ&hl=en" target="_blank">Google Scholar</a> |
-        <a href="https://github.com/Ali-E" target="_blank">GitHub</a> |
-        <a href="mailto:ae20@illinois.edu" target="_blank">Email</a>
-    </div>
-</div>
-
-
 <div class="people">
     <img src="/images/tianyang_zhou.jpg" alt="Tianyang Zhou" class="img-cropped">
     <div>
@@ -155,6 +141,9 @@ sections:
 </div>
   
 # Alumni
+
+**Ali Ebrahimpour Boroojeny**, CS PhD graduated in 2026, last known at Google (2026).
+[Personal Website](https://ali-e.github.io/) | [Google Scholar](https://scholar.google.com/citations?user=98J7AAkAAAAJ&hl=en) | [GitHub](https://github.com/Ali-E)
 
 **Fan Wu**, CS PhD graduated in 2025, last known at Five Rings LLC (2025).
 [Google Scholar](https://scholar.google.com/citations?user=qd8WzBMAAAAJ&hl=en)
