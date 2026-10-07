@@ -12,8 +12,7 @@ date: 2026-08-24
 | **Instructor**        | [Varun Chandrasekaran](https://chandrasekaran-group.github.io/) (varunc@illinois.edu) |
 |-----------------------|---------------------------------------------------------------------------------------|
 | **TAs**               | [Ritvik Kumar](mailto:ritvik3@illinois.edu) (ritvik3@illinois.edu) |
-|                       | [Dylen Greenenwald](mailto:dgree21@illinois.edu) (dgree21@illinois.edu) |
-| | https://greenenwald.com|
+|                       | [Dylen Greenenwald](https://greenenwald.com/) (dgree21@illinois.edu) |
 |                       | [Eklavya Tyagi](mailto:etyagi2@illinois.edu) (etyagi2@illinois.edu) |
 | **Time/Location**     | **PG/ PU Section**: online and asynchronous |
 |                       | **DSO Section**: online and asynchronous |
